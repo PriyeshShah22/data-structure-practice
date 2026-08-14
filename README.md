@@ -29,6 +29,7 @@ I am learning to write better code by solving Codeforces problems consistently. 
 | [71A — Way Too Long Words](https://codeforces.com/problemset/problem/71/A) | Strings, implementation | [Python](800-level/way%20too%20long.py) |
 | [1899A — Game with Integers](https://codeforces.com/problemset/problem/1899/A) | Games, modulo 3 | [Python](800-level/game%20with%20integer.py) |
 | [1896A — Jagged Swaps](https://codeforces.com/problemset/problem/1896/A) | Invariant, sorting | [Python](800-level/jagged%20swaps.py) |
+| [1900A — Cover in Water](https://codeforces.com/problemset/problem/1900/A) | Greedy, strings | [Python](800-level/cover%20in%20water.py) |
 
 New rating sections will be added as I progress through the sheet.
 
