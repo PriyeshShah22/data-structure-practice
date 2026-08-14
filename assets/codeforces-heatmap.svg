@@ -1,0 +1,1152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="205" viewBox="0 0 850 205" role="img" aria-labelledby="title description">
+  <title id="title">codingwps Codeforces activity heatmap</title>
+  <desc id="description">7 problems solved all time and 3 during the displayed year.</desc>
+  <style>
+    :root { --text: #57606a; --heading: #24292f; --level-0: #ebedf0; --border: rgba(27, 31, 36, 0.06); }
+    @media (prefers-color-scheme: dark) { :root { --text: #8b949e; --heading: #f0f6fc; --level-0: #161b22; --border: rgba(240, 246, 252, 0.08); } }
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: var(--text); }
+    .heading { fill: var(--heading); font-size: 16px; font-weight: 600; }
+    .summary { font-size: 12px; }
+    .label { font-size: 10px; }
+    rect { stroke: var(--border); stroke-width: 1px; shape-rendering: geometricPrecision; }
+  </style>
+  <text class="heading" x="12" y="19">codingwps · Codeforces activity</text>
+  <text class="summary" x="12" y="39">7 problems solved all time · 3 in the last year · 2 day max streak</text>
+  <text class="label" x="48" y="55">Aug</text>
+  <text class="label" x="90" y="55">Sep</text>
+  <text class="label" x="146" y="55">Oct</text>
+  <text class="label" x="202" y="55">Nov</text>
+  <text class="label" x="272" y="55">Dec</text>
+  <text class="label" x="328" y="55">Jan</text>
+  <text class="label" x="398" y="55">Feb</text>
+  <text class="label" x="454" y="55">Mar</text>
+  <text class="label" x="510" y="55">Apr</text>
+  <text class="label" x="566" y="55">May</text>
+  <text class="label" x="636" y="55">Jun</text>
+  <text class="label" x="692" y="55">Jul</text>
+  <text class="label" x="748" y="55">Aug</text>
+  <text class="label" x="12" y="85">Mon</text>
+  <text class="label" x="12" y="113">Wed</text>
+  <text class="label" x="12" y="141">Fri</text>
+  <rect x="48" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 10, 2025</title>
+  </rect>
+  <rect x="48" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 11, 2025</title>
+  </rect>
+  <rect x="48" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 12, 2025</title>
+  </rect>
+  <rect x="48" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 13, 2025</title>
+  </rect>
+  <rect x="48" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 14, 2025</title>
+  </rect>
+  <rect x="48" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 15, 2025</title>
+  </rect>
+  <rect x="48" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 16, 2025</title>
+  </rect>
+  <rect x="62" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 17, 2025</title>
+  </rect>
+  <rect x="62" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 18, 2025</title>
+  </rect>
+  <rect x="62" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 19, 2025</title>
+  </rect>
+  <rect x="62" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 20, 2025</title>
+  </rect>
+  <rect x="62" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 21, 2025</title>
+  </rect>
+  <rect x="62" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 22, 2025</title>
+  </rect>
+  <rect x="62" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 23, 2025</title>
+  </rect>
+  <rect x="76" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 24, 2025</title>
+  </rect>
+  <rect x="76" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 25, 2025</title>
+  </rect>
+  <rect x="76" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 26, 2025</title>
+  </rect>
+  <rect x="76" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 27, 2025</title>
+  </rect>
+  <rect x="76" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 28, 2025</title>
+  </rect>
+  <rect x="76" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 29, 2025</title>
+  </rect>
+  <rect x="76" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 30, 2025</title>
+  </rect>
+  <rect x="90" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 31, 2025</title>
+  </rect>
+  <rect x="90" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 1, 2025</title>
+  </rect>
+  <rect x="90" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 2, 2025</title>
+  </rect>
+  <rect x="90" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 3, 2025</title>
+  </rect>
+  <rect x="90" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 4, 2025</title>
+  </rect>
+  <rect x="90" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 5, 2025</title>
+  </rect>
+  <rect x="90" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 6, 2025</title>
+  </rect>
+  <rect x="104" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 7, 2025</title>
+  </rect>
+  <rect x="104" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 8, 2025</title>
+  </rect>
+  <rect x="104" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 9, 2025</title>
+  </rect>
+  <rect x="104" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 10, 2025</title>
+  </rect>
+  <rect x="104" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 11, 2025</title>
+  </rect>
+  <rect x="104" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 12, 2025</title>
+  </rect>
+  <rect x="104" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 13, 2025</title>
+  </rect>
+  <rect x="118" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 14, 2025</title>
+  </rect>
+  <rect x="118" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 15, 2025</title>
+  </rect>
+  <rect x="118" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 16, 2025</title>
+  </rect>
+  <rect x="118" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 17, 2025</title>
+  </rect>
+  <rect x="118" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 18, 2025</title>
+  </rect>
+  <rect x="118" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 19, 2025</title>
+  </rect>
+  <rect x="118" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 20, 2025</title>
+  </rect>
+  <rect x="132" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 21, 2025</title>
+  </rect>
+  <rect x="132" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 22, 2025</title>
+  </rect>
+  <rect x="132" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 23, 2025</title>
+  </rect>
+  <rect x="132" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 24, 2025</title>
+  </rect>
+  <rect x="132" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 25, 2025</title>
+  </rect>
+  <rect x="132" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 26, 2025</title>
+  </rect>
+  <rect x="132" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 27, 2025</title>
+  </rect>
+  <rect x="146" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 28, 2025</title>
+  </rect>
+  <rect x="146" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 29, 2025</title>
+  </rect>
+  <rect x="146" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Sep 30, 2025</title>
+  </rect>
+  <rect x="146" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 1, 2025</title>
+  </rect>
+  <rect x="146" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 2, 2025</title>
+  </rect>
+  <rect x="146" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 3, 2025</title>
+  </rect>
+  <rect x="146" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 4, 2025</title>
+  </rect>
+  <rect x="160" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 5, 2025</title>
+  </rect>
+  <rect x="160" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 6, 2025</title>
+  </rect>
+  <rect x="160" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 7, 2025</title>
+  </rect>
+  <rect x="160" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 8, 2025</title>
+  </rect>
+  <rect x="160" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 9, 2025</title>
+  </rect>
+  <rect x="160" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 10, 2025</title>
+  </rect>
+  <rect x="160" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 11, 2025</title>
+  </rect>
+  <rect x="174" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 12, 2025</title>
+  </rect>
+  <rect x="174" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 13, 2025</title>
+  </rect>
+  <rect x="174" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 14, 2025</title>
+  </rect>
+  <rect x="174" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 15, 2025</title>
+  </rect>
+  <rect x="174" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 16, 2025</title>
+  </rect>
+  <rect x="174" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 17, 2025</title>
+  </rect>
+  <rect x="174" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 18, 2025</title>
+  </rect>
+  <rect x="188" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 19, 2025</title>
+  </rect>
+  <rect x="188" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 20, 2025</title>
+  </rect>
+  <rect x="188" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 21, 2025</title>
+  </rect>
+  <rect x="188" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 22, 2025</title>
+  </rect>
+  <rect x="188" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 23, 2025</title>
+  </rect>
+  <rect x="188" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 24, 2025</title>
+  </rect>
+  <rect x="188" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 25, 2025</title>
+  </rect>
+  <rect x="202" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 26, 2025</title>
+  </rect>
+  <rect x="202" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 27, 2025</title>
+  </rect>
+  <rect x="202" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 28, 2025</title>
+  </rect>
+  <rect x="202" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 29, 2025</title>
+  </rect>
+  <rect x="202" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 30, 2025</title>
+  </rect>
+  <rect x="202" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Oct 31, 2025</title>
+  </rect>
+  <rect x="202" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 1, 2025</title>
+  </rect>
+  <rect x="216" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 2, 2025</title>
+  </rect>
+  <rect x="216" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 3, 2025</title>
+  </rect>
+  <rect x="216" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 4, 2025</title>
+  </rect>
+  <rect x="216" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 5, 2025</title>
+  </rect>
+  <rect x="216" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 6, 2025</title>
+  </rect>
+  <rect x="216" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 7, 2025</title>
+  </rect>
+  <rect x="216" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 8, 2025</title>
+  </rect>
+  <rect x="230" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 9, 2025</title>
+  </rect>
+  <rect x="230" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 10, 2025</title>
+  </rect>
+  <rect x="230" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 11, 2025</title>
+  </rect>
+  <rect x="230" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 12, 2025</title>
+  </rect>
+  <rect x="230" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 13, 2025</title>
+  </rect>
+  <rect x="230" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 14, 2025</title>
+  </rect>
+  <rect x="230" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 15, 2025</title>
+  </rect>
+  <rect x="244" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 16, 2025</title>
+  </rect>
+  <rect x="244" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 17, 2025</title>
+  </rect>
+  <rect x="244" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 18, 2025</title>
+  </rect>
+  <rect x="244" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 19, 2025</title>
+  </rect>
+  <rect x="244" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 20, 2025</title>
+  </rect>
+  <rect x="244" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 21, 2025</title>
+  </rect>
+  <rect x="244" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 22, 2025</title>
+  </rect>
+  <rect x="258" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 23, 2025</title>
+  </rect>
+  <rect x="258" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 24, 2025</title>
+  </rect>
+  <rect x="258" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 25, 2025</title>
+  </rect>
+  <rect x="258" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 26, 2025</title>
+  </rect>
+  <rect x="258" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 27, 2025</title>
+  </rect>
+  <rect x="258" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 28, 2025</title>
+  </rect>
+  <rect x="258" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 29, 2025</title>
+  </rect>
+  <rect x="272" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Nov 30, 2025</title>
+  </rect>
+  <rect x="272" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 1, 2025</title>
+  </rect>
+  <rect x="272" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 2, 2025</title>
+  </rect>
+  <rect x="272" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 3, 2025</title>
+  </rect>
+  <rect x="272" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 4, 2025</title>
+  </rect>
+  <rect x="272" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 5, 2025</title>
+  </rect>
+  <rect x="272" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 6, 2025</title>
+  </rect>
+  <rect x="286" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 7, 2025</title>
+  </rect>
+  <rect x="286" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 8, 2025</title>
+  </rect>
+  <rect x="286" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 9, 2025</title>
+  </rect>
+  <rect x="286" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 10, 2025</title>
+  </rect>
+  <rect x="286" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 11, 2025</title>
+  </rect>
+  <rect x="286" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 12, 2025</title>
+  </rect>
+  <rect x="286" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 13, 2025</title>
+  </rect>
+  <rect x="300" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 14, 2025</title>
+  </rect>
+  <rect x="300" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 15, 2025</title>
+  </rect>
+  <rect x="300" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 16, 2025</title>
+  </rect>
+  <rect x="300" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 17, 2025</title>
+  </rect>
+  <rect x="300" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 18, 2025</title>
+  </rect>
+  <rect x="300" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 19, 2025</title>
+  </rect>
+  <rect x="300" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 20, 2025</title>
+  </rect>
+  <rect x="314" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 21, 2025</title>
+  </rect>
+  <rect x="314" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 22, 2025</title>
+  </rect>
+  <rect x="314" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 23, 2025</title>
+  </rect>
+  <rect x="314" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 24, 2025</title>
+  </rect>
+  <rect x="314" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 25, 2025</title>
+  </rect>
+  <rect x="314" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 26, 2025</title>
+  </rect>
+  <rect x="314" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 27, 2025</title>
+  </rect>
+  <rect x="328" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 28, 2025</title>
+  </rect>
+  <rect x="328" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 29, 2025</title>
+  </rect>
+  <rect x="328" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 30, 2025</title>
+  </rect>
+  <rect x="328" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Dec 31, 2025</title>
+  </rect>
+  <rect x="328" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 1, 2026</title>
+  </rect>
+  <rect x="328" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 2, 2026</title>
+  </rect>
+  <rect x="328" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 3, 2026</title>
+  </rect>
+  <rect x="342" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 4, 2026</title>
+  </rect>
+  <rect x="342" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 5, 2026</title>
+  </rect>
+  <rect x="342" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 6, 2026</title>
+  </rect>
+  <rect x="342" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 7, 2026</title>
+  </rect>
+  <rect x="342" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 8, 2026</title>
+  </rect>
+  <rect x="342" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 9, 2026</title>
+  </rect>
+  <rect x="342" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 10, 2026</title>
+  </rect>
+  <rect x="356" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 11, 2026</title>
+  </rect>
+  <rect x="356" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 12, 2026</title>
+  </rect>
+  <rect x="356" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 13, 2026</title>
+  </rect>
+  <rect x="356" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 14, 2026</title>
+  </rect>
+  <rect x="356" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 15, 2026</title>
+  </rect>
+  <rect x="356" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 16, 2026</title>
+  </rect>
+  <rect x="356" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 17, 2026</title>
+  </rect>
+  <rect x="370" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 18, 2026</title>
+  </rect>
+  <rect x="370" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 19, 2026</title>
+  </rect>
+  <rect x="370" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 20, 2026</title>
+  </rect>
+  <rect x="370" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 21, 2026</title>
+  </rect>
+  <rect x="370" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 22, 2026</title>
+  </rect>
+  <rect x="370" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 23, 2026</title>
+  </rect>
+  <rect x="370" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 24, 2026</title>
+  </rect>
+  <rect x="384" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 25, 2026</title>
+  </rect>
+  <rect x="384" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 26, 2026</title>
+  </rect>
+  <rect x="384" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 27, 2026</title>
+  </rect>
+  <rect x="384" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 28, 2026</title>
+  </rect>
+  <rect x="384" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 29, 2026</title>
+  </rect>
+  <rect x="384" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 30, 2026</title>
+  </rect>
+  <rect x="384" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jan 31, 2026</title>
+  </rect>
+  <rect x="398" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 1, 2026</title>
+  </rect>
+  <rect x="398" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 2, 2026</title>
+  </rect>
+  <rect x="398" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 3, 2026</title>
+  </rect>
+  <rect x="398" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 4, 2026</title>
+  </rect>
+  <rect x="398" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 5, 2026</title>
+  </rect>
+  <rect x="398" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 6, 2026</title>
+  </rect>
+  <rect x="398" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 7, 2026</title>
+  </rect>
+  <rect x="412" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 8, 2026</title>
+  </rect>
+  <rect x="412" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 9, 2026</title>
+  </rect>
+  <rect x="412" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 10, 2026</title>
+  </rect>
+  <rect x="412" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 11, 2026</title>
+  </rect>
+  <rect x="412" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 12, 2026</title>
+  </rect>
+  <rect x="412" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 13, 2026</title>
+  </rect>
+  <rect x="412" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 14, 2026</title>
+  </rect>
+  <rect x="426" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 15, 2026</title>
+  </rect>
+  <rect x="426" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 16, 2026</title>
+  </rect>
+  <rect x="426" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 17, 2026</title>
+  </rect>
+  <rect x="426" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 18, 2026</title>
+  </rect>
+  <rect x="426" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 19, 2026</title>
+  </rect>
+  <rect x="426" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 20, 2026</title>
+  </rect>
+  <rect x="426" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 21, 2026</title>
+  </rect>
+  <rect x="440" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 22, 2026</title>
+  </rect>
+  <rect x="440" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 23, 2026</title>
+  </rect>
+  <rect x="440" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 24, 2026</title>
+  </rect>
+  <rect x="440" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 25, 2026</title>
+  </rect>
+  <rect x="440" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 26, 2026</title>
+  </rect>
+  <rect x="440" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 27, 2026</title>
+  </rect>
+  <rect x="440" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Feb 28, 2026</title>
+  </rect>
+  <rect x="454" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 1, 2026</title>
+  </rect>
+  <rect x="454" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 2, 2026</title>
+  </rect>
+  <rect x="454" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 3, 2026</title>
+  </rect>
+  <rect x="454" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 4, 2026</title>
+  </rect>
+  <rect x="454" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 5, 2026</title>
+  </rect>
+  <rect x="454" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 6, 2026</title>
+  </rect>
+  <rect x="454" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 7, 2026</title>
+  </rect>
+  <rect x="468" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 8, 2026</title>
+  </rect>
+  <rect x="468" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 9, 2026</title>
+  </rect>
+  <rect x="468" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 10, 2026</title>
+  </rect>
+  <rect x="468" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 11, 2026</title>
+  </rect>
+  <rect x="468" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 12, 2026</title>
+  </rect>
+  <rect x="468" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 13, 2026</title>
+  </rect>
+  <rect x="468" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 14, 2026</title>
+  </rect>
+  <rect x="482" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 15, 2026</title>
+  </rect>
+  <rect x="482" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 16, 2026</title>
+  </rect>
+  <rect x="482" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 17, 2026</title>
+  </rect>
+  <rect x="482" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 18, 2026</title>
+  </rect>
+  <rect x="482" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 19, 2026</title>
+  </rect>
+  <rect x="482" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 20, 2026</title>
+  </rect>
+  <rect x="482" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 21, 2026</title>
+  </rect>
+  <rect x="496" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 22, 2026</title>
+  </rect>
+  <rect x="496" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 23, 2026</title>
+  </rect>
+  <rect x="496" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 24, 2026</title>
+  </rect>
+  <rect x="496" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 25, 2026</title>
+  </rect>
+  <rect x="496" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 26, 2026</title>
+  </rect>
+  <rect x="496" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 27, 2026</title>
+  </rect>
+  <rect x="496" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 28, 2026</title>
+  </rect>
+  <rect x="510" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 29, 2026</title>
+  </rect>
+  <rect x="510" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 30, 2026</title>
+  </rect>
+  <rect x="510" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Mar 31, 2026</title>
+  </rect>
+  <rect x="510" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 1, 2026</title>
+  </rect>
+  <rect x="510" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 2, 2026</title>
+  </rect>
+  <rect x="510" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 3, 2026</title>
+  </rect>
+  <rect x="510" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 4, 2026</title>
+  </rect>
+  <rect x="524" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 5, 2026</title>
+  </rect>
+  <rect x="524" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 6, 2026</title>
+  </rect>
+  <rect x="524" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 7, 2026</title>
+  </rect>
+  <rect x="524" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 8, 2026</title>
+  </rect>
+  <rect x="524" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 9, 2026</title>
+  </rect>
+  <rect x="524" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 10, 2026</title>
+  </rect>
+  <rect x="524" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 11, 2026</title>
+  </rect>
+  <rect x="538" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 12, 2026</title>
+  </rect>
+  <rect x="538" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 13, 2026</title>
+  </rect>
+  <rect x="538" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 14, 2026</title>
+  </rect>
+  <rect x="538" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 15, 2026</title>
+  </rect>
+  <rect x="538" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 16, 2026</title>
+  </rect>
+  <rect x="538" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 17, 2026</title>
+  </rect>
+  <rect x="538" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 18, 2026</title>
+  </rect>
+  <rect x="552" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 19, 2026</title>
+  </rect>
+  <rect x="552" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 20, 2026</title>
+  </rect>
+  <rect x="552" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 21, 2026</title>
+  </rect>
+  <rect x="552" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 22, 2026</title>
+  </rect>
+  <rect x="552" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 23, 2026</title>
+  </rect>
+  <rect x="552" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 24, 2026</title>
+  </rect>
+  <rect x="552" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 25, 2026</title>
+  </rect>
+  <rect x="566" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 26, 2026</title>
+  </rect>
+  <rect x="566" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 27, 2026</title>
+  </rect>
+  <rect x="566" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 28, 2026</title>
+  </rect>
+  <rect x="566" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 29, 2026</title>
+  </rect>
+  <rect x="566" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Apr 30, 2026</title>
+  </rect>
+  <rect x="566" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 1, 2026</title>
+  </rect>
+  <rect x="566" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 2, 2026</title>
+  </rect>
+  <rect x="580" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 3, 2026</title>
+  </rect>
+  <rect x="580" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 4, 2026</title>
+  </rect>
+  <rect x="580" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 5, 2026</title>
+  </rect>
+  <rect x="580" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 6, 2026</title>
+  </rect>
+  <rect x="580" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 7, 2026</title>
+  </rect>
+  <rect x="580" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 8, 2026</title>
+  </rect>
+  <rect x="580" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 9, 2026</title>
+  </rect>
+  <rect x="594" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 10, 2026</title>
+  </rect>
+  <rect x="594" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 11, 2026</title>
+  </rect>
+  <rect x="594" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 12, 2026</title>
+  </rect>
+  <rect x="594" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 13, 2026</title>
+  </rect>
+  <rect x="594" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 14, 2026</title>
+  </rect>
+  <rect x="594" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 15, 2026</title>
+  </rect>
+  <rect x="594" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 16, 2026</title>
+  </rect>
+  <rect x="608" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 17, 2026</title>
+  </rect>
+  <rect x="608" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 18, 2026</title>
+  </rect>
+  <rect x="608" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 19, 2026</title>
+  </rect>
+  <rect x="608" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 20, 2026</title>
+  </rect>
+  <rect x="608" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 21, 2026</title>
+  </rect>
+  <rect x="608" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 22, 2026</title>
+  </rect>
+  <rect x="608" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 23, 2026</title>
+  </rect>
+  <rect x="622" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 24, 2026</title>
+  </rect>
+  <rect x="622" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 25, 2026</title>
+  </rect>
+  <rect x="622" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 26, 2026</title>
+  </rect>
+  <rect x="622" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 27, 2026</title>
+  </rect>
+  <rect x="622" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 28, 2026</title>
+  </rect>
+  <rect x="622" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 29, 2026</title>
+  </rect>
+  <rect x="622" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 30, 2026</title>
+  </rect>
+  <rect x="636" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on May 31, 2026</title>
+  </rect>
+  <rect x="636" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 1, 2026</title>
+  </rect>
+  <rect x="636" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 2, 2026</title>
+  </rect>
+  <rect x="636" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 3, 2026</title>
+  </rect>
+  <rect x="636" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 4, 2026</title>
+  </rect>
+  <rect x="636" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 5, 2026</title>
+  </rect>
+  <rect x="636" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 6, 2026</title>
+  </rect>
+  <rect x="650" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 7, 2026</title>
+  </rect>
+  <rect x="650" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 8, 2026</title>
+  </rect>
+  <rect x="650" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 9, 2026</title>
+  </rect>
+  <rect x="650" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 10, 2026</title>
+  </rect>
+  <rect x="650" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 11, 2026</title>
+  </rect>
+  <rect x="650" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 12, 2026</title>
+  </rect>
+  <rect x="650" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 13, 2026</title>
+  </rect>
+  <rect x="664" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 14, 2026</title>
+  </rect>
+  <rect x="664" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 15, 2026</title>
+  </rect>
+  <rect x="664" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 16, 2026</title>
+  </rect>
+  <rect x="664" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 17, 2026</title>
+  </rect>
+  <rect x="664" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 18, 2026</title>
+  </rect>
+  <rect x="664" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 19, 2026</title>
+  </rect>
+  <rect x="664" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 20, 2026</title>
+  </rect>
+  <rect x="678" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 21, 2026</title>
+  </rect>
+  <rect x="678" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 22, 2026</title>
+  </rect>
+  <rect x="678" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 23, 2026</title>
+  </rect>
+  <rect x="678" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 24, 2026</title>
+  </rect>
+  <rect x="678" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 25, 2026</title>
+  </rect>
+  <rect x="678" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 26, 2026</title>
+  </rect>
+  <rect x="678" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 27, 2026</title>
+  </rect>
+  <rect x="692" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 28, 2026</title>
+  </rect>
+  <rect x="692" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 29, 2026</title>
+  </rect>
+  <rect x="692" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jun 30, 2026</title>
+  </rect>
+  <rect x="692" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 1, 2026</title>
+  </rect>
+  <rect x="692" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 2, 2026</title>
+  </rect>
+  <rect x="692" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 3, 2026</title>
+  </rect>
+  <rect x="692" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 4, 2026</title>
+  </rect>
+  <rect x="706" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 5, 2026</title>
+  </rect>
+  <rect x="706" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 6, 2026</title>
+  </rect>
+  <rect x="706" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 7, 2026</title>
+  </rect>
+  <rect x="706" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 8, 2026</title>
+  </rect>
+  <rect x="706" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 9, 2026</title>
+  </rect>
+  <rect x="706" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 10, 2026</title>
+  </rect>
+  <rect x="706" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 11, 2026</title>
+  </rect>
+  <rect x="720" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 12, 2026</title>
+  </rect>
+  <rect x="720" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 13, 2026</title>
+  </rect>
+  <rect x="720" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 14, 2026</title>
+  </rect>
+  <rect x="720" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 15, 2026</title>
+  </rect>
+  <rect x="720" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 16, 2026</title>
+  </rect>
+  <rect x="720" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 17, 2026</title>
+  </rect>
+  <rect x="720" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 18, 2026</title>
+  </rect>
+  <rect x="734" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 19, 2026</title>
+  </rect>
+  <rect x="734" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 20, 2026</title>
+  </rect>
+  <rect x="734" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 21, 2026</title>
+  </rect>
+  <rect x="734" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 22, 2026</title>
+  </rect>
+  <rect x="734" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 23, 2026</title>
+  </rect>
+  <rect x="734" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 24, 2026</title>
+  </rect>
+  <rect x="734" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 25, 2026</title>
+  </rect>
+  <rect x="748" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 26, 2026</title>
+  </rect>
+  <rect x="748" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 27, 2026</title>
+  </rect>
+  <rect x="748" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 28, 2026</title>
+  </rect>
+  <rect x="748" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 29, 2026</title>
+  </rect>
+  <rect x="748" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 30, 2026</title>
+  </rect>
+  <rect x="748" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Jul 31, 2026</title>
+  </rect>
+  <rect x="748" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 1, 2026</title>
+  </rect>
+  <rect x="762" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 2, 2026</title>
+  </rect>
+  <rect x="762" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 3, 2026</title>
+  </rect>
+  <rect x="762" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 4, 2026</title>
+  </rect>
+  <rect x="762" y="104" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 5, 2026</title>
+  </rect>
+  <rect x="762" y="118" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 6, 2026</title>
+  </rect>
+  <rect x="762" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 7, 2026</title>
+  </rect>
+  <rect x="762" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 8, 2026</title>
+  </rect>
+  <rect x="776" y="62" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 9, 2026</title>
+  </rect>
+  <rect x="776" y="76" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 10, 2026</title>
+  </rect>
+  <rect x="776" y="90" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 11, 2026</title>
+  </rect>
+  <rect x="776" y="104" width="11" height="11" rx="2" fill="#40c463">
+    <title>1 problem solved on Aug 12, 2026</title>
+  </rect>
+  <rect x="776" y="118" width="11" height="11" rx="2" fill="#216e39">
+    <title>2 problems solved on Aug 13, 2026</title>
+  </rect>
+  <rect x="776" y="132" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 14, 2026</title>
+  </rect>
+  <rect x="776" y="146" width="11" height="11" rx="2" fill="var(--level-0)">
+    <title>0 problems solved on Aug 15, 2026</title>
+  </rect>
+  <text class="label" x="48" y="189">First accepted solve per problem · Asia/Kolkata</text>
+  <text class="label" x="686" y="189">Less</text>
+  <rect x="714" y="180" width="11" height="11" rx="2" fill="var(--level-0)" />
+  <rect x="728" y="180" width="11" height="11" rx="2" fill="#9be9a8" />
+  <rect x="742" y="180" width="11" height="11" rx="2" fill="#40c463" />
+  <rect x="756" y="180" width="11" height="11" rx="2" fill="#30a14e" />
+  <rect x="770" y="180" width="11" height="11" rx="2" fill="#216e39" />
+  <text class="label" x="786" y="189">More</text>
+</svg>

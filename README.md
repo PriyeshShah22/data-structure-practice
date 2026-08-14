@@ -21,22 +21,26 @@ More rating folders will be added as I progress through the sheet.
 
 [![Codeforces stats for codingwps](https://codeforces-readme-stats.vercel.app/api/card?username=codingwps)](https://codeforces.com/profile/codingwps)
 
-[![Codeforces contribution snapshot](assets/codeforces-contributions.png)](https://codeforces.com/profile/codingwps)
+[![Codeforces activity heatmap](assets/codeforces-heatmap.svg)](https://codeforces.com/profile/codingwps)
 
-The heatmap above is a snapshot of my Codeforces activity. Visit my [Codeforces profile](https://codeforces.com/profile/codingwps) for the latest submissions.
+The heatmap is generated from my public Codeforces submissions and refreshes automatically every day. Each square counts unique problems on the date of their first accepted submission.
 
 ## Repository structure
 
 ```text
 data-structure-practice/
-├── 800-level/
-│   ├── halloumi boxes.py
-│   ├── helpful maths.py
-│   ├── line trip.py
-│   └── way too long.py
-├── assets/
-│   └── codeforces-contributions.png
-└── README.md
+|-- 800-level/
+|   |-- halloumi boxes.py
+|   |-- helpful maths.py
+|   |-- line trip.py
+|   `-- way too long.py
+|-- assets/
+|   `-- codeforces-heatmap.svg
+|-- scripts/
+|   `-- generate_codeforces_heatmap.py
+|-- .github/workflows/
+|   `-- update-codeforces-heatmap.yml
+`-- README.md
 ```
 
 Each solution keeps the original executable code and adds only a brief documentation comment at the top.
