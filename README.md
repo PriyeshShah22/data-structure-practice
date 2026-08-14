@@ -1,46 +1,43 @@
+<div align="center">
+
 # Data Structure Practice
 
-I am learning to write code on Codeforces and practising competitive programming with the [TLE Eliminators CP-31 Sheet](https://www.tle-eliminators.com/cp-sheet).
+My growing collection of Codeforces solutions while learning competitive programming with the TLE Eliminators CP-31 Sheet.
 
-[![Python](https://img.shields.io/badge/language-Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Codeforces](https://img.shields.io/badge/Codeforces-codingwps-1F8ACB?logo=codeforces&logoColor=white)](https://codeforces.com/profile/codingwps)
-[![Practice Sheet](https://img.shields.io/badge/practice-CP--31-2EA44F)](https://www.tle-eliminators.com/cp-sheet)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Codeforces](https://img.shields.io/badge/Codeforces-codingwps-1F8ACB?style=flat&logo=codeforces&logoColor=white)](https://codeforces.com/profile/codingwps)
+[![CP-31 Sheet](https://img.shields.io/badge/Practice-CP--31-2EA44F?style=flat)](https://www.tle-eliminators.com/cp-sheet)
 
-## Solved problems
+</div>
 
-| Rating | Problem | Pattern | Solution |
-|:---:|---|---|---|
-| 800 | [1903A — Halloumi Boxes](https://codeforces.com/problemset/problem/1903/A) | Greedy, sorting | [Python](800-level/halloumi%20boxes.py) |
-| 800 | [339A — Helpful Maths](https://codeforces.com/problemset/problem/339/A) | Sorting, strings | [Python](800-level/helpful%20maths.py) |
-| 800 | [1901A — Line Trip](https://codeforces.com/problemset/problem/1901/A) | Greedy, gaps | [Python](800-level/line%20trip.py) |
-| 800 | [71A — Way Too Long Words](https://codeforces.com/problemset/problem/71/A) | Strings, implementation | [Python](800-level/way%20too%20long.py) |
+## About
 
-More rating folders will be added as I progress through the sheet.
+I am learning to write better code by solving Codeforces problems consistently. Solutions are organised by problem rating, with a short description, pattern, and sample test included in each file for quick revision.
+
+## Progress
+
+### 800 rated
+
+| Problem | Main idea | Solution |
+|---|---|:---:|
+| [1903A — Halloumi Boxes](https://codeforces.com/problemset/problem/1903/A) | Greedy, sorting | [Python](800-level/halloumi%20boxes.py) |
+| [339A — Helpful Maths](https://codeforces.com/problemset/problem/339/A) | Sorting, strings | [Python](800-level/helpful%20maths.py) |
+| [1901A — Line Trip](https://codeforces.com/problemset/problem/1901/A) | Greedy, gaps | [Python](800-level/line%20trip.py) |
+| [71A — Way Too Long Words](https://codeforces.com/problemset/problem/71/A) | Strings, implementation | [Python](800-level/way%20too%20long.py) |
+
+New rating sections will be added as I progress through the sheet.
 
 ## Codeforces activity
 
-[![Codeforces stats for codingwps](https://codeforces-readme-stats.vercel.app/api/card?username=codingwps)](https://codeforces.com/profile/codingwps)
+<div align="center">
 
 [![Codeforces activity heatmap](assets/codeforces-heatmap.svg)](https://codeforces.com/profile/codingwps)
 
-The heatmap is generated from my public Codeforces submissions and refreshes automatically every day. Each square counts unique problems on the date of their first accepted submission.
+</div>
 
-## Repository structure
+The heatmap refreshes automatically from my public Codeforces submissions. Each active square shows how many unique problems were first accepted on that day.
 
-```text
-data-structure-practice/
-|-- 800-level/
-|   |-- halloumi boxes.py
-|   |-- helpful maths.py
-|   |-- line trip.py
-|   `-- way too long.py
-|-- assets/
-|   `-- codeforces-heatmap.svg
-|-- scripts/
-|   `-- generate_codeforces_heatmap.py
-|-- .github/workflows/
-|   `-- update-codeforces-heatmap.yml
-`-- README.md
-```
+## Practice links
 
-Each solution keeps the original executable code and adds only a brief documentation comment at the top.
+- [TLE Eliminators CP-31 Sheet](https://www.tle-eliminators.com/cp-sheet)
+- [Codeforces profile — codingwps](https://codeforces.com/profile/codingwps)
