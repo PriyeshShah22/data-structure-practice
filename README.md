@@ -51,5 +51,5 @@ The heatmap refreshes automatically from my public Codeforces submissions. Each 
 ---
 
 <p align="center">
-Feel free to connect with me if you think we can learn together and practise questions. I would love to build a small practice group.
+Feel free to connect with me if you think we can learn together and practice questions. I would love to build a small practice group.
 </p>
