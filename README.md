@@ -27,6 +27,8 @@ I am learning to write better code by solving Codeforces problems consistently. 
 | [339A — Helpful Maths](https://codeforces.com/problemset/problem/339/A) | Sorting, strings | [Python](800-level/helpful%20maths.py) |
 | [1901A — Line Trip](https://codeforces.com/problemset/problem/1901/A) | Greedy, gaps | [Python](800-level/line%20trip.py) |
 | [71A — Way Too Long Words](https://codeforces.com/problemset/problem/71/A) | Strings, implementation | [Python](800-level/way%20too%20long.py) |
+| [1899A — Game with Integers](https://codeforces.com/problemset/problem/1899/A) | Games, modulo 3 | [Python](800-level/game%20with%20integer.py) |
+| [1896A — Jagged Swaps](https://codeforces.com/problemset/problem/1896/A) | Invariant, sorting | [Python](800-level/jagged%20swaps.py) |
 
 New rating sections will be added as I progress through the sheet.
 

@@ -1,6 +1,11 @@
 name: Update Codeforces heatmap
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "800-level/**/*.py"
   schedule:
     - cron: "17 18 * * *"
   workflow_dispatch:
