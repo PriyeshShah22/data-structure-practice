@@ -14,6 +14,9 @@ My growing collection of Codeforces solutions while learning competitive program
 
 I am learning to write better code by solving Codeforces problems consistently. Solutions are organised by problem rating, with a short description, pattern, and sample test included in each file for quick revision.
 
+- **Codeforces:** [codingwps](https://codeforces.com/profile/codingwps)
+- **Practice sheet:** [TLE Eliminators CP-31](https://www.tle-eliminators.com/cp-sheet)
+
 ## Progress
 
 ### 800 rated
@@ -37,7 +40,16 @@ New rating sections will be added as I progress through the sheet.
 
 The heatmap refreshes automatically from my public Codeforces submissions. Each active square shows how many unique problems were first accepted on that day.
 
-## Practice links
+### Codeforces analytics
 
-- [TLE Eliminators CP-31 Sheet](https://www.tle-eliminators.com/cp-sheet)
-- [Codeforces profile — codingwps](https://codeforces.com/profile/codingwps)
+<div align="center">
+
+[![Codeforces analytics for codingwps](https://codeforces-readme-stats.vercel.app/api/card?username=codingwps)](https://codeforces.com/profile/codingwps)
+
+</div>
+
+---
+
+<p align="center">
+Feel free to connect with me if you think we can learn together and practise questions. I would love to build a small practice group.
+</p>
