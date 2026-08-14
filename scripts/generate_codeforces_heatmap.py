@@ -72,17 +72,6 @@ def solved_problem_dates(submissions: list[dict], timezone_name: str) -> list[da
     return dates
 
 
-def longest_streak(active_days: set[date]) -> int:
-    longest = 0
-    current = 0
-    previous: date | None = None
-    for day in sorted(active_days):
-        current = current + 1 if previous and day == previous + timedelta(days=1) else 1
-        longest = max(longest, current)
-        previous = day
-    return longest
-
-
 def contribution_level(count: int, largest_count: int) -> int:
     if count == 0:
         return 0
@@ -91,86 +80,89 @@ def contribution_level(count: int, largest_count: int) -> int:
 
 def render_svg(handle: str, solved_dates: list[date], today: date, timezone_name: str) -> str:
     counts = Counter(solved_dates)
+    year_start = today - timedelta(days=364)
     days_since_sunday = (today.weekday() + 1) % 7
     current_week = today - timedelta(days=days_since_sunday)
     start = current_week - timedelta(weeks=52)
     grid_days = 53 * 7
-    end = start + timedelta(days=grid_days - 1)
-    visible_solved = sum(count for day, count in counts.items() if start <= day <= today)
-    active_days = {day for day, count in counts.items() if count > 0}
-    visible_max = max((counts[start + timedelta(days=i)] for i in range(grid_days)), default=1)
-    visible_max = max(visible_max, 1)
+    recent_solved = sum(count for day, count in counts.items() if year_start <= day <= today)
+    recent_active_days = sum(1 for day, count in counts.items() if year_start <= day <= today and count)
+    recent_max = max((count for day, count in counts.items() if year_start <= day <= today), default=1)
 
-    cell = 11
+    cell = 10
     gap = 3
     pitch = cell + gap
-    grid_x = 48
-    grid_y = 62
-    width = 850
-    height = 205
-    colors = ["var(--level-0)", "#9be9a8", "#40c463", "#30a14e", "#216e39"]
+    grid_x = 50
+    grid_y = 66
+    width = 790
+    height = 176
+    colors = ["#161b22", "#9be9a8", "#40c463", "#30a14e", "#216e39"]
 
     lines = [
-        '<svg xmlns="http://www.w3.org/2000/svg" width="850" height="205" viewBox="0 0 850 205" role="img" aria-labelledby="title description">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title description">',
         f'  <title id="title">{escape(handle)} Codeforces activity heatmap</title>',
-        f'  <desc id="description">{len(solved_dates)} problems solved all time and {visible_solved} during the displayed year.</desc>',
+        f'  <desc id="description">{recent_solved} problems solved across {recent_active_days} active days in the last 12 months; {len(solved_dates)} solved all time.</desc>',
         "  <style>",
-        "    :root { --text: #57606a; --heading: #24292f; --level-0: #ebedf0; --border: rgba(27, 31, 36, 0.06); }",
-        "    @media (prefers-color-scheme: dark) { :root { --text: #8b949e; --heading: #f0f6fc; --level-0: #161b22; --border: rgba(240, 246, 252, 0.08); } }",
-        "    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: var(--text); }",
-        "    .heading { fill: var(--heading); font-size: 16px; font-weight: 600; }",
-        "    .summary { font-size: 12px; }",
-        "    .label { font-size: 10px; }",
-        "    rect { stroke: var(--border); stroke-width: 1px; shape-rendering: geometricPrecision; }",
+        "    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }",
+        "    .heading { fill: #f0f6fc; font-size: 13px; font-weight: 600; }",
+        "    .summary { font-size: 11px; }",
+        "    .label { font-size: 9px; }",
+        "    .panel { fill: #0d1117; stroke: #30363d; }",
+        "    .cell { stroke: #30363d; stroke-width: 0.6px; stroke-opacity: 0.75; }",
+        "    .padding { fill: transparent; stroke: none; }",
+        "    .cell-count { fill: #ffffff; font-size: 7px; font-weight: 700; pointer-events: none; }",
         "  </style>",
-        f'  <text class="heading" x="12" y="19">{escape(handle)} · Codeforces activity</text>',
-        (
-            f'  <text class="summary" x="12" y="39">{len(solved_dates)} problems solved all time · '
-            f'{visible_solved} in the last year · {longest_streak(active_days)} day max streak</text>'
-        ),
+        f'  <rect class="panel" x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="10" />',
+        '  <text class="heading" x="18" y="22">Codeforces solving activity</text>',
+        f'  <text class="summary" x="18" y="41">{recent_solved} solved · {recent_active_days} active days · last 12 months</text>',
+        f'  <text class="summary" x="{width - 18}" y="22" text-anchor="end">@{escape(handle)}</text>',
     ]
 
-    month_labels: list[tuple[int, str]] = [(0, start.strftime("%b"))]
+    month_labels: list[tuple[int, str]] = []
     for week in range(53):
         week_start = start + timedelta(weeks=week)
         for offset in range(7):
             day = week_start + timedelta(days=offset)
-            if day.day == 1 and day != start:
+            if day.day == 1 and year_start <= day <= today:
                 month_labels.append((week, day.strftime("%b")))
                 break
     for week, label in month_labels:
-        lines.append(f'  <text class="label" x="{grid_x + week * pitch}" y="55">{label}</text>')
+        lines.append(f'  <text class="label" x="{grid_x + week * pitch}" y="58">{label}</text>')
 
     for weekday, label in ((1, "Mon"), (3, "Wed"), (5, "Fri")):
-        lines.append(f'  <text class="label" x="12" y="{grid_y + weekday * pitch + 9}">{label}</text>')
+        lines.append(f'  <text class="label" x="18" y="{grid_y + weekday * pitch + 8}">{label}</text>')
 
     for offset in range(grid_days):
         day = start + timedelta(days=offset)
         week = offset // 7
         weekday = offset % 7
-        count = counts[day] if day <= today else 0
-        level = contribution_level(count, visible_max)
         x = grid_x + week * pitch
         y = grid_y + weekday * pitch
+        in_range = year_start <= day <= today
+        count = counts[day] if in_range else 0
+        level = contribution_level(count, recent_max)
         noun = "problem" if count == 1 else "problems"
         label = f"{count} {noun} solved on {day.strftime('%b')} {day.day}, {day.year}"
-        lines.extend(
-            [
-                f'  <rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2" fill="{colors[level]}">',
-                f"    <title>{escape(label)}</title>",
-                "  </rect>",
-            ]
+        cell_class = "cell" if in_range else "padding"
+        lines.append(
+            f'  <rect class="{cell_class}" x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2" fill="{colors[level]}">'
         )
+        lines.append(f"    <title>{escape(label)}</title>")
+        lines.append("  </rect>")
+        if count:
+            lines.append(
+                f'  <text class="cell-count" x="{x + cell / 2:g}" y="{y + 7.5:g}" text-anchor="middle">{count}</text>'
+            )
 
-    legend_y = 180
-    lines.append(f'  <text class="label" x="{grid_x}" y="{legend_y + 9}">First accepted solve per problem · {escape(timezone_name)}</text>')
-    legend_x = 714
-    lines.append(f'  <text class="label" x="{legend_x - 28}" y="{legend_y + 9}">Less</text>')
+    legend_y = 159
+    lines.append(f'  <text class="label" x="{grid_x}" y="{legend_y + 8}">{len(solved_dates)} solved all time · first accepted solve · {escape(timezone_name)}</text>')
+    legend_x = 677
+    lines.append(f'  <text class="label" x="{legend_x - 26}" y="{legend_y + 8}">Less</text>')
     for level, color in enumerate(colors):
         lines.append(
-            f'  <rect x="{legend_x + level * pitch}" y="{legend_y}" width="{cell}" height="{cell}" rx="2" fill="{color}" />'
+            f'  <rect class="cell" x="{legend_x + level * pitch}" y="{legend_y}" width="{cell}" height="{cell}" rx="2" fill="{color}" />'
         )
-    lines.append(f'  <text class="label" x="{legend_x + 5 * pitch + 2}" y="{legend_y + 9}">More</text>')
+    lines.append(f'  <text class="label" x="{legend_x + 5 * pitch + 2}" y="{legend_y + 8}">More</text>')
     lines.append("</svg>")
     return "\n".join(lines) + "\n"
 
