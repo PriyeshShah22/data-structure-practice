@@ -30,7 +30,7 @@
   <text class="label" x="18" y="87">Mon</text>
   <text class="label" x="18" y="113">Wed</text>
   <text class="label" x="18" y="139">Fri</text>
-  <rect class="cell" x="50" y="66" width="10" height="10" rx="2" fill="#161b22">
+  <rect class="padding" x="50" y="66" width="10" height="10" rx="2" fill="#161b22">
     <title>0 problems solved on Aug 17, 2025</title>
   </rect>
   <rect class="cell" x="50" y="79" width="10" height="10" rx="2" fill="#161b22">
@@ -1129,7 +1129,7 @@
   <rect class="cell" x="726" y="66" width="10" height="10" rx="2" fill="#161b22">
     <title>0 problems solved on Aug 16, 2026</title>
   </rect>
-  <rect class="padding" x="726" y="79" width="10" height="10" rx="2" fill="#161b22">
+  <rect class="cell" x="726" y="79" width="10" height="10" rx="2" fill="#161b22">
     <title>0 problems solved on Aug 17, 2026</title>
   </rect>
   <rect class="padding" x="726" y="92" width="10" height="10" rx="2" fill="#161b22">
