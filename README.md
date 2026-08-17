@@ -17,23 +17,15 @@ I am learning to write better code by solving Codeforces problems consistently. 
 - **Codeforces:** [codingwps](https://codeforces.com/profile/codingwps)
 - **Practice sheet:** [TLE Eliminators CP-31](https://www.tle-eliminators.com/cp-sheet)
 
-## Progress
+## Favourites / Solve Again
 
-### 800 rated
+A short revision list of problems I want to revisit. All completed solutions remain available in the `800-level` folder.
 
 | Problem | Main idea | Solution |
 |---|---|:---:|
-| [1903A — Halloumi Boxes](https://codeforces.com/problemset/problem/1903/A) | Greedy, sorting | [Python](800-level/halloumi%20boxes.py) |
-| [339A — Helpful Maths](https://codeforces.com/problemset/problem/339/A) | Sorting, strings | [Python](800-level/helpful%20maths.py) |
 | [1901A — Line Trip](https://codeforces.com/problemset/problem/1901/A) | Greedy, gaps | [Python](800-level/line%20trip.py) |
-| [71A — Way Too Long Words](https://codeforces.com/problemset/problem/71/A) | Strings, implementation | [Python](800-level/way%20too%20long.py) |
-| [1899A — Game with Integers](https://codeforces.com/problemset/problem/1899/A) | Games, modulo 3 | [Python](800-level/game%20with%20integer.py) |
-| [1896A — Jagged Swaps](https://codeforces.com/problemset/problem/1896/A) | Invariant, sorting | [Python](800-level/jagged%20swaps.py) |
-| [1900A — Cover in Water](https://codeforces.com/problemset/problem/1900/A) | Greedy, strings | [Python](800-level/cover%20in%20water.py) |
-| [1881A — Don't Try to Count](https://codeforces.com/problemset/problem/1881/A) | Brute force, strings | [Python](800-level/don%27t%20try%20to%20count.py) |
 | [1890A — Doremy's Paint 3](https://codeforces.com/problemset/problem/1890/A) | Constructive algorithms, frequency counting | [Python](800-level/doremys%20paint%203.py) |
-
-New rating sections will be added as I progress through the sheet.
+| [1878A — How Much Does Daytona Cost?](https://codeforces.com/problemset/problem/1878/A) | Membership check | [Python](800-level/how%20much%20does%20daytona%20cost.py) |
 
 ## Practice pulse
 
