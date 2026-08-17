@@ -17,15 +17,18 @@ I am learning to write better code by solving Codeforces problems consistently. 
 - **Codeforces:** [codingwps](https://codeforces.com/profile/codingwps)
 - **Practice sheet:** [TLE Eliminators CP-31](https://www.tle-eliminators.com/cp-sheet)
 
-## Favourites / Solve Again
+## Pattern Map
 
-A short revision list of problems I want to revisit. All completed solutions remain available in the `800-level` folder.
+Problems are grouped by their main reusable idea to keep this revision list compact. **Bold problems** are on my solve-again list.
 
-| Problem | Main idea | Solution |
-|---|---|:---:|
-| [1901A — Line Trip](https://codeforces.com/problemset/problem/1901/A) | Greedy, gaps | [Python](800-level/line%20trip.py) |
-| [1890A — Doremy's Paint 3](https://codeforces.com/problemset/problem/1890/A) | Constructive algorithms, frequency counting | [Python](800-level/doremys%20paint%203.py) |
-| [1878A — How Much Does Daytona Cost?](https://codeforces.com/problemset/problem/1878/A) | Membership check | [Python](800-level/how%20much%20does%20daytona%20cost.py) |
+| Pattern family | Problems |
+|---|---|
+| Greedy & gaps | **[Line Trip](https://codeforces.com/problemset/problem/1901/A)** ([code](800-level/line%20trip.py)), [Halloumi Boxes](https://codeforces.com/problemset/problem/1903/A) ([code](800-level/halloumi%20boxes.py)), [Cover in Water](https://codeforces.com/problemset/problem/1900/A) ([code](800-level/cover%20in%20water.py)) |
+| Strings | [Helpful Maths](https://codeforces.com/problemset/problem/339/A) ([code](800-level/helpful%20maths.py)), [Way Too Long Words](https://codeforces.com/problemset/problem/71/A) ([code](800-level/way%20too%20long.py)), [Don't Try to Count](https://codeforces.com/problemset/problem/1881/A) ([code](800-level/don%27t%20try%20to%20count.py)) |
+| Invariants & ordering | [Jagged Swaps](https://codeforces.com/problemset/problem/1896/A) ([code](800-level/jagged%20swaps.py)) |
+| Games & modular math | [Game with Integers](https://codeforces.com/problemset/problem/1899/A) ([code](800-level/game%20with%20integer.py)) |
+| Frequency & constructive | **[Doremy's Paint 3](https://codeforces.com/problemset/problem/1890/A)** ([code](800-level/doremys%20paint%203.py)) |
+| Membership check | **[How Much Does Daytona Cost?](https://codeforces.com/problemset/problem/1878/A)** ([code](800-level/how%20much%20does%20daytona%20cost.py)) |
 
 ## Practice pulse
 
