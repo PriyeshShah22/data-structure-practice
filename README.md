@@ -34,23 +34,15 @@ I am learning to write better code by solving Codeforces problems consistently. 
 
 New rating sections will be added as I progress through the sheet.
 
-## Codeforces activity
+## Practice pulse
 
 <div align="center">
 
-[![Codeforces activity heatmap](assets/codeforces-heatmap.svg)](https://codeforces.com/profile/codingwps)
+[![Live Codeforces practice dashboard for codingwps](assets/codeforces-heatmap.svg)](https://codeforces.com/profile/codingwps)
 
 </div>
 
-The heatmap refreshes automatically from my public Codeforces submissions. Each active square shows how many unique problems were first accepted on that day.
-
-### Codeforces analytics
-
-<div align="center">
-
-[![Codeforces analytics for codingwps](https://codeforces-readme-stats.vercel.app/api/card?username=codingwps)](https://codeforces.com/profile/codingwps)
-
-</div>
+This dashboard refreshes automatically from my public Codeforces submissions. It tracks unique first accepted solves, consistency, difficulty, topic patterns, and recent progress.
 
 ---
 

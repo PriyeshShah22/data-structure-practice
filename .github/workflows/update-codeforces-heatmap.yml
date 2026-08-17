@@ -1,4 +1,4 @@
-name: Update Codeforces heatmap
+name: Update Codeforces dashboard
 
 on:
   push:
@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "800-level/**/*.py"
+      - "scripts/generate_codeforces_heatmap.py"
   schedule:
     - cron: "17 18 * * *"
   workflow_dispatch:
@@ -29,17 +30,17 @@ jobs:
         with:
           python-version: "3.13"
 
-      - name: Generate heatmap
+      - name: Generate practice dashboard
         run: python scripts/generate_codeforces_heatmap.py
 
-      - name: Commit an updated heatmap
+      - name: Commit an updated dashboard
         run: |
           if git diff --quiet -- assets/codeforces-heatmap.svg; then
-            echo "Heatmap is already current."
+            echo "Dashboard is already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/codeforces-heatmap.svg
-          git commit -m "Update Codeforces heatmap"
+          git commit -m "Update Codeforces dashboard"
           git push

@@ -1,1158 +1,486 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="790" height="176" viewBox="0 0 790 176" role="img" aria-labelledby="title description">
-  <title id="title">codingwps Codeforces activity heatmap</title>
-  <desc id="description">6 problems solved across 4 active days in the last 12 months; 10 solved all time.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" role="img" aria-labelledby="title description">
+  <title id="title">@codingwps Codeforces Practice Pulse</title>
+  <desc id="description">A live practice dashboard showing 10 unique solved problems, 6 active days, and a 4-day best streak.</desc>
+  <defs>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08111f"/><stop offset="1" stop-color="#0d0b1c"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22d3ee" stop-opacity=".12"/><stop offset="1" stop-color="#a78bfa" stop-opacity=".08"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
   <style>
-    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
-    .heading { fill: #f0f6fc; font-size: 13px; font-weight: 600; }
-    .summary { font-size: 11px; }
-    .label { font-size: 9px; }
-    .panel { fill: #0d1117; stroke: #30363d; }
-    .cell { stroke: #30363d; stroke-width: 0.6px; stroke-opacity: 0.75; }
-    .padding { fill: transparent; stroke: none; }
-    .cell-count { fill: #ffffff; font-size: 7px; font-weight: 700; pointer-events: none; }
+    text { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #94a3b8; }
+    .title { fill: #f8fafc; font-size: 25px; font-weight: 750; letter-spacing: -.4px; }
+    .eyebrow { fill: #67e8f9; font-size: 10px; font-weight: 700; letter-spacing: 1.8px; }
+    .subtitle { font-size: 12px; } .label { font-size: 10px; } .tiny { font-size: 9px; }
+    .value { fill: #f8fafc; font-size: 25px; font-weight: 750; }
+    .section { fill: #e2e8f0; font-size: 13px; font-weight: 650; }
+    .strong { fill: #e2e8f0; font-size: 11px; font-weight: 600; }
+    .panel { fill: #0c1422; stroke: #263247; stroke-width: 1; }
+    .card { fill: url(#soft); stroke: #263247; stroke-width: 1; }
+    .cell { stroke: #334155; stroke-width: .7; } .padding { fill: transparent; stroke: none; }
+    .cell-count { fill: #f8fafc; font-size: 7px; font-weight: 750; pointer-events: none; }
   </style>
-  <rect class="panel" x="0.5" y="0.5" width="789" height="175" rx="10" />
-  <text class="heading" x="18" y="22">Codeforces solving activity</text>
-  <text class="summary" x="18" y="41">6 solved · 4 active days · last 12 months</text>
-  <text class="summary" x="772" y="22" text-anchor="end">@codingwps</text>
-  <text class="label" x="76" y="58">Sep</text>
-  <text class="label" x="128" y="58">Oct</text>
-  <text class="label" x="180" y="58">Nov</text>
-  <text class="label" x="245" y="58">Dec</text>
-  <text class="label" x="297" y="58">Jan</text>
-  <text class="label" x="362" y="58">Feb</text>
-  <text class="label" x="414" y="58">Mar</text>
-  <text class="label" x="466" y="58">Apr</text>
-  <text class="label" x="518" y="58">May</text>
-  <text class="label" x="583" y="58">Jun</text>
-  <text class="label" x="635" y="58">Jul</text>
-  <text class="label" x="687" y="58">Aug</text>
-  <text class="label" x="18" y="87">Mon</text>
-  <text class="label" x="18" y="113">Wed</text>
-  <text class="label" x="18" y="139">Fri</text>
-  <rect class="padding" x="50" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 17, 2025</title>
-  </rect>
-  <rect class="cell" x="50" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 18, 2025</title>
-  </rect>
-  <rect class="cell" x="50" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 19, 2025</title>
-  </rect>
-  <rect class="cell" x="50" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 20, 2025</title>
-  </rect>
-  <rect class="cell" x="50" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 21, 2025</title>
-  </rect>
-  <rect class="cell" x="50" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 22, 2025</title>
-  </rect>
-  <rect class="cell" x="50" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 23, 2025</title>
-  </rect>
-  <rect class="cell" x="63" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 24, 2025</title>
-  </rect>
-  <rect class="cell" x="63" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 25, 2025</title>
-  </rect>
-  <rect class="cell" x="63" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 26, 2025</title>
-  </rect>
-  <rect class="cell" x="63" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 27, 2025</title>
-  </rect>
-  <rect class="cell" x="63" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 28, 2025</title>
-  </rect>
-  <rect class="cell" x="63" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 29, 2025</title>
-  </rect>
-  <rect class="cell" x="63" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 30, 2025</title>
-  </rect>
-  <rect class="cell" x="76" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 31, 2025</title>
-  </rect>
-  <rect class="cell" x="76" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 1, 2025</title>
-  </rect>
-  <rect class="cell" x="76" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 2, 2025</title>
-  </rect>
-  <rect class="cell" x="76" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 3, 2025</title>
-  </rect>
-  <rect class="cell" x="76" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 4, 2025</title>
-  </rect>
-  <rect class="cell" x="76" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 5, 2025</title>
-  </rect>
-  <rect class="cell" x="76" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 6, 2025</title>
-  </rect>
-  <rect class="cell" x="89" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 7, 2025</title>
-  </rect>
-  <rect class="cell" x="89" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 8, 2025</title>
-  </rect>
-  <rect class="cell" x="89" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 9, 2025</title>
-  </rect>
-  <rect class="cell" x="89" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 10, 2025</title>
-  </rect>
-  <rect class="cell" x="89" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 11, 2025</title>
-  </rect>
-  <rect class="cell" x="89" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 12, 2025</title>
-  </rect>
-  <rect class="cell" x="89" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 13, 2025</title>
-  </rect>
-  <rect class="cell" x="102" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 14, 2025</title>
-  </rect>
-  <rect class="cell" x="102" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 15, 2025</title>
-  </rect>
-  <rect class="cell" x="102" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 16, 2025</title>
-  </rect>
-  <rect class="cell" x="102" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 17, 2025</title>
-  </rect>
-  <rect class="cell" x="102" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 18, 2025</title>
-  </rect>
-  <rect class="cell" x="102" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 19, 2025</title>
-  </rect>
-  <rect class="cell" x="102" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 20, 2025</title>
-  </rect>
-  <rect class="cell" x="115" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 21, 2025</title>
-  </rect>
-  <rect class="cell" x="115" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 22, 2025</title>
-  </rect>
-  <rect class="cell" x="115" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 23, 2025</title>
-  </rect>
-  <rect class="cell" x="115" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 24, 2025</title>
-  </rect>
-  <rect class="cell" x="115" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 25, 2025</title>
-  </rect>
-  <rect class="cell" x="115" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 26, 2025</title>
-  </rect>
-  <rect class="cell" x="115" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 27, 2025</title>
-  </rect>
-  <rect class="cell" x="128" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 28, 2025</title>
-  </rect>
-  <rect class="cell" x="128" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 29, 2025</title>
-  </rect>
-  <rect class="cell" x="128" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Sep 30, 2025</title>
-  </rect>
-  <rect class="cell" x="128" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 1, 2025</title>
-  </rect>
-  <rect class="cell" x="128" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 2, 2025</title>
-  </rect>
-  <rect class="cell" x="128" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 3, 2025</title>
-  </rect>
-  <rect class="cell" x="128" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 4, 2025</title>
-  </rect>
-  <rect class="cell" x="141" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 5, 2025</title>
-  </rect>
-  <rect class="cell" x="141" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 6, 2025</title>
-  </rect>
-  <rect class="cell" x="141" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 7, 2025</title>
-  </rect>
-  <rect class="cell" x="141" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 8, 2025</title>
-  </rect>
-  <rect class="cell" x="141" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 9, 2025</title>
-  </rect>
-  <rect class="cell" x="141" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 10, 2025</title>
-  </rect>
-  <rect class="cell" x="141" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 11, 2025</title>
-  </rect>
-  <rect class="cell" x="154" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 12, 2025</title>
-  </rect>
-  <rect class="cell" x="154" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 13, 2025</title>
-  </rect>
-  <rect class="cell" x="154" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 14, 2025</title>
-  </rect>
-  <rect class="cell" x="154" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 15, 2025</title>
-  </rect>
-  <rect class="cell" x="154" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 16, 2025</title>
-  </rect>
-  <rect class="cell" x="154" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 17, 2025</title>
-  </rect>
-  <rect class="cell" x="154" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 18, 2025</title>
-  </rect>
-  <rect class="cell" x="167" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 19, 2025</title>
-  </rect>
-  <rect class="cell" x="167" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 20, 2025</title>
-  </rect>
-  <rect class="cell" x="167" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 21, 2025</title>
-  </rect>
-  <rect class="cell" x="167" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 22, 2025</title>
-  </rect>
-  <rect class="cell" x="167" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 23, 2025</title>
-  </rect>
-  <rect class="cell" x="167" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 24, 2025</title>
-  </rect>
-  <rect class="cell" x="167" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 25, 2025</title>
-  </rect>
-  <rect class="cell" x="180" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 26, 2025</title>
-  </rect>
-  <rect class="cell" x="180" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 27, 2025</title>
-  </rect>
-  <rect class="cell" x="180" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 28, 2025</title>
-  </rect>
-  <rect class="cell" x="180" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 29, 2025</title>
-  </rect>
-  <rect class="cell" x="180" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 30, 2025</title>
-  </rect>
-  <rect class="cell" x="180" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Oct 31, 2025</title>
-  </rect>
-  <rect class="cell" x="180" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 1, 2025</title>
-  </rect>
-  <rect class="cell" x="193" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 2, 2025</title>
-  </rect>
-  <rect class="cell" x="193" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 3, 2025</title>
-  </rect>
-  <rect class="cell" x="193" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 4, 2025</title>
-  </rect>
-  <rect class="cell" x="193" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 5, 2025</title>
-  </rect>
-  <rect class="cell" x="193" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 6, 2025</title>
-  </rect>
-  <rect class="cell" x="193" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 7, 2025</title>
-  </rect>
-  <rect class="cell" x="193" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 8, 2025</title>
-  </rect>
-  <rect class="cell" x="206" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 9, 2025</title>
-  </rect>
-  <rect class="cell" x="206" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 10, 2025</title>
-  </rect>
-  <rect class="cell" x="206" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 11, 2025</title>
-  </rect>
-  <rect class="cell" x="206" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 12, 2025</title>
-  </rect>
-  <rect class="cell" x="206" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 13, 2025</title>
-  </rect>
-  <rect class="cell" x="206" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 14, 2025</title>
-  </rect>
-  <rect class="cell" x="206" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 15, 2025</title>
-  </rect>
-  <rect class="cell" x="219" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 16, 2025</title>
-  </rect>
-  <rect class="cell" x="219" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 17, 2025</title>
-  </rect>
-  <rect class="cell" x="219" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 18, 2025</title>
-  </rect>
-  <rect class="cell" x="219" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 19, 2025</title>
-  </rect>
-  <rect class="cell" x="219" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 20, 2025</title>
-  </rect>
-  <rect class="cell" x="219" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 21, 2025</title>
-  </rect>
-  <rect class="cell" x="219" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 22, 2025</title>
-  </rect>
-  <rect class="cell" x="232" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 23, 2025</title>
-  </rect>
-  <rect class="cell" x="232" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 24, 2025</title>
-  </rect>
-  <rect class="cell" x="232" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 25, 2025</title>
-  </rect>
-  <rect class="cell" x="232" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 26, 2025</title>
-  </rect>
-  <rect class="cell" x="232" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 27, 2025</title>
-  </rect>
-  <rect class="cell" x="232" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 28, 2025</title>
-  </rect>
-  <rect class="cell" x="232" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 29, 2025</title>
-  </rect>
-  <rect class="cell" x="245" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Nov 30, 2025</title>
-  </rect>
-  <rect class="cell" x="245" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 1, 2025</title>
-  </rect>
-  <rect class="cell" x="245" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 2, 2025</title>
-  </rect>
-  <rect class="cell" x="245" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 3, 2025</title>
-  </rect>
-  <rect class="cell" x="245" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 4, 2025</title>
-  </rect>
-  <rect class="cell" x="245" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 5, 2025</title>
-  </rect>
-  <rect class="cell" x="245" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 6, 2025</title>
-  </rect>
-  <rect class="cell" x="258" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 7, 2025</title>
-  </rect>
-  <rect class="cell" x="258" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 8, 2025</title>
-  </rect>
-  <rect class="cell" x="258" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 9, 2025</title>
-  </rect>
-  <rect class="cell" x="258" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 10, 2025</title>
-  </rect>
-  <rect class="cell" x="258" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 11, 2025</title>
-  </rect>
-  <rect class="cell" x="258" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 12, 2025</title>
-  </rect>
-  <rect class="cell" x="258" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 13, 2025</title>
-  </rect>
-  <rect class="cell" x="271" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 14, 2025</title>
-  </rect>
-  <rect class="cell" x="271" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 15, 2025</title>
-  </rect>
-  <rect class="cell" x="271" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 16, 2025</title>
-  </rect>
-  <rect class="cell" x="271" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 17, 2025</title>
-  </rect>
-  <rect class="cell" x="271" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 18, 2025</title>
-  </rect>
-  <rect class="cell" x="271" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 19, 2025</title>
-  </rect>
-  <rect class="cell" x="271" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 20, 2025</title>
-  </rect>
-  <rect class="cell" x="284" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 21, 2025</title>
-  </rect>
-  <rect class="cell" x="284" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 22, 2025</title>
-  </rect>
-  <rect class="cell" x="284" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 23, 2025</title>
-  </rect>
-  <rect class="cell" x="284" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 24, 2025</title>
-  </rect>
-  <rect class="cell" x="284" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 25, 2025</title>
-  </rect>
-  <rect class="cell" x="284" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 26, 2025</title>
-  </rect>
-  <rect class="cell" x="284" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 27, 2025</title>
-  </rect>
-  <rect class="cell" x="297" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 28, 2025</title>
-  </rect>
-  <rect class="cell" x="297" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 29, 2025</title>
-  </rect>
-  <rect class="cell" x="297" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 30, 2025</title>
-  </rect>
-  <rect class="cell" x="297" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Dec 31, 2025</title>
-  </rect>
-  <rect class="cell" x="297" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 1, 2026</title>
-  </rect>
-  <rect class="cell" x="297" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 2, 2026</title>
-  </rect>
-  <rect class="cell" x="297" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 3, 2026</title>
-  </rect>
-  <rect class="cell" x="310" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 4, 2026</title>
-  </rect>
-  <rect class="cell" x="310" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 5, 2026</title>
-  </rect>
-  <rect class="cell" x="310" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 6, 2026</title>
-  </rect>
-  <rect class="cell" x="310" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 7, 2026</title>
-  </rect>
-  <rect class="cell" x="310" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 8, 2026</title>
-  </rect>
-  <rect class="cell" x="310" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 9, 2026</title>
-  </rect>
-  <rect class="cell" x="310" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 10, 2026</title>
-  </rect>
-  <rect class="cell" x="323" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 11, 2026</title>
-  </rect>
-  <rect class="cell" x="323" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 12, 2026</title>
-  </rect>
-  <rect class="cell" x="323" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 13, 2026</title>
-  </rect>
-  <rect class="cell" x="323" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 14, 2026</title>
-  </rect>
-  <rect class="cell" x="323" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 15, 2026</title>
-  </rect>
-  <rect class="cell" x="323" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 16, 2026</title>
-  </rect>
-  <rect class="cell" x="323" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 17, 2026</title>
-  </rect>
-  <rect class="cell" x="336" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 18, 2026</title>
-  </rect>
-  <rect class="cell" x="336" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 19, 2026</title>
-  </rect>
-  <rect class="cell" x="336" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 20, 2026</title>
-  </rect>
-  <rect class="cell" x="336" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 21, 2026</title>
-  </rect>
-  <rect class="cell" x="336" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 22, 2026</title>
-  </rect>
-  <rect class="cell" x="336" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 23, 2026</title>
-  </rect>
-  <rect class="cell" x="336" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 24, 2026</title>
-  </rect>
-  <rect class="cell" x="349" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 25, 2026</title>
-  </rect>
-  <rect class="cell" x="349" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 26, 2026</title>
-  </rect>
-  <rect class="cell" x="349" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 27, 2026</title>
-  </rect>
-  <rect class="cell" x="349" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 28, 2026</title>
-  </rect>
-  <rect class="cell" x="349" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 29, 2026</title>
-  </rect>
-  <rect class="cell" x="349" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 30, 2026</title>
-  </rect>
-  <rect class="cell" x="349" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jan 31, 2026</title>
-  </rect>
-  <rect class="cell" x="362" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 1, 2026</title>
-  </rect>
-  <rect class="cell" x="362" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 2, 2026</title>
-  </rect>
-  <rect class="cell" x="362" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 3, 2026</title>
-  </rect>
-  <rect class="cell" x="362" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 4, 2026</title>
-  </rect>
-  <rect class="cell" x="362" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 5, 2026</title>
-  </rect>
-  <rect class="cell" x="362" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 6, 2026</title>
-  </rect>
-  <rect class="cell" x="362" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 7, 2026</title>
-  </rect>
-  <rect class="cell" x="375" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 8, 2026</title>
-  </rect>
-  <rect class="cell" x="375" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 9, 2026</title>
-  </rect>
-  <rect class="cell" x="375" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 10, 2026</title>
-  </rect>
-  <rect class="cell" x="375" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 11, 2026</title>
-  </rect>
-  <rect class="cell" x="375" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 12, 2026</title>
-  </rect>
-  <rect class="cell" x="375" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 13, 2026</title>
-  </rect>
-  <rect class="cell" x="375" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 14, 2026</title>
-  </rect>
-  <rect class="cell" x="388" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 15, 2026</title>
-  </rect>
-  <rect class="cell" x="388" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 16, 2026</title>
-  </rect>
-  <rect class="cell" x="388" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 17, 2026</title>
-  </rect>
-  <rect class="cell" x="388" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 18, 2026</title>
-  </rect>
-  <rect class="cell" x="388" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 19, 2026</title>
-  </rect>
-  <rect class="cell" x="388" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 20, 2026</title>
-  </rect>
-  <rect class="cell" x="388" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 21, 2026</title>
-  </rect>
-  <rect class="cell" x="401" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 22, 2026</title>
-  </rect>
-  <rect class="cell" x="401" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 23, 2026</title>
-  </rect>
-  <rect class="cell" x="401" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 24, 2026</title>
-  </rect>
-  <rect class="cell" x="401" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 25, 2026</title>
-  </rect>
-  <rect class="cell" x="401" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 26, 2026</title>
-  </rect>
-  <rect class="cell" x="401" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 27, 2026</title>
-  </rect>
-  <rect class="cell" x="401" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Feb 28, 2026</title>
-  </rect>
-  <rect class="cell" x="414" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 1, 2026</title>
-  </rect>
-  <rect class="cell" x="414" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 2, 2026</title>
-  </rect>
-  <rect class="cell" x="414" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 3, 2026</title>
-  </rect>
-  <rect class="cell" x="414" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 4, 2026</title>
-  </rect>
-  <rect class="cell" x="414" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 5, 2026</title>
-  </rect>
-  <rect class="cell" x="414" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 6, 2026</title>
-  </rect>
-  <rect class="cell" x="414" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 7, 2026</title>
-  </rect>
-  <rect class="cell" x="427" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 8, 2026</title>
-  </rect>
-  <rect class="cell" x="427" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 9, 2026</title>
-  </rect>
-  <rect class="cell" x="427" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 10, 2026</title>
-  </rect>
-  <rect class="cell" x="427" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 11, 2026</title>
-  </rect>
-  <rect class="cell" x="427" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 12, 2026</title>
-  </rect>
-  <rect class="cell" x="427" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 13, 2026</title>
-  </rect>
-  <rect class="cell" x="427" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 14, 2026</title>
-  </rect>
-  <rect class="cell" x="440" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 15, 2026</title>
-  </rect>
-  <rect class="cell" x="440" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 16, 2026</title>
-  </rect>
-  <rect class="cell" x="440" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 17, 2026</title>
-  </rect>
-  <rect class="cell" x="440" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 18, 2026</title>
-  </rect>
-  <rect class="cell" x="440" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 19, 2026</title>
-  </rect>
-  <rect class="cell" x="440" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 20, 2026</title>
-  </rect>
-  <rect class="cell" x="440" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 21, 2026</title>
-  </rect>
-  <rect class="cell" x="453" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 22, 2026</title>
-  </rect>
-  <rect class="cell" x="453" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 23, 2026</title>
-  </rect>
-  <rect class="cell" x="453" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 24, 2026</title>
-  </rect>
-  <rect class="cell" x="453" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 25, 2026</title>
-  </rect>
-  <rect class="cell" x="453" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 26, 2026</title>
-  </rect>
-  <rect class="cell" x="453" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 27, 2026</title>
-  </rect>
-  <rect class="cell" x="453" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 28, 2026</title>
-  </rect>
-  <rect class="cell" x="466" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 29, 2026</title>
-  </rect>
-  <rect class="cell" x="466" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 30, 2026</title>
-  </rect>
-  <rect class="cell" x="466" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Mar 31, 2026</title>
-  </rect>
-  <rect class="cell" x="466" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 1, 2026</title>
-  </rect>
-  <rect class="cell" x="466" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 2, 2026</title>
-  </rect>
-  <rect class="cell" x="466" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 3, 2026</title>
-  </rect>
-  <rect class="cell" x="466" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 4, 2026</title>
-  </rect>
-  <rect class="cell" x="479" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 5, 2026</title>
-  </rect>
-  <rect class="cell" x="479" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 6, 2026</title>
-  </rect>
-  <rect class="cell" x="479" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 7, 2026</title>
-  </rect>
-  <rect class="cell" x="479" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 8, 2026</title>
-  </rect>
-  <rect class="cell" x="479" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 9, 2026</title>
-  </rect>
-  <rect class="cell" x="479" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 10, 2026</title>
-  </rect>
-  <rect class="cell" x="479" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 11, 2026</title>
-  </rect>
-  <rect class="cell" x="492" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 12, 2026</title>
-  </rect>
-  <rect class="cell" x="492" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 13, 2026</title>
-  </rect>
-  <rect class="cell" x="492" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 14, 2026</title>
-  </rect>
-  <rect class="cell" x="492" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 15, 2026</title>
-  </rect>
-  <rect class="cell" x="492" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 16, 2026</title>
-  </rect>
-  <rect class="cell" x="492" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 17, 2026</title>
-  </rect>
-  <rect class="cell" x="492" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 18, 2026</title>
-  </rect>
-  <rect class="cell" x="505" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 19, 2026</title>
-  </rect>
-  <rect class="cell" x="505" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 20, 2026</title>
-  </rect>
-  <rect class="cell" x="505" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 21, 2026</title>
-  </rect>
-  <rect class="cell" x="505" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 22, 2026</title>
-  </rect>
-  <rect class="cell" x="505" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 23, 2026</title>
-  </rect>
-  <rect class="cell" x="505" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 24, 2026</title>
-  </rect>
-  <rect class="cell" x="505" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 25, 2026</title>
-  </rect>
-  <rect class="cell" x="518" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 26, 2026</title>
-  </rect>
-  <rect class="cell" x="518" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 27, 2026</title>
-  </rect>
-  <rect class="cell" x="518" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 28, 2026</title>
-  </rect>
-  <rect class="cell" x="518" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 29, 2026</title>
-  </rect>
-  <rect class="cell" x="518" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Apr 30, 2026</title>
-  </rect>
-  <rect class="cell" x="518" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 1, 2026</title>
-  </rect>
-  <rect class="cell" x="518" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 2, 2026</title>
-  </rect>
-  <rect class="cell" x="531" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 3, 2026</title>
-  </rect>
-  <rect class="cell" x="531" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 4, 2026</title>
-  </rect>
-  <rect class="cell" x="531" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 5, 2026</title>
-  </rect>
-  <rect class="cell" x="531" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 6, 2026</title>
-  </rect>
-  <rect class="cell" x="531" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 7, 2026</title>
-  </rect>
-  <rect class="cell" x="531" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 8, 2026</title>
-  </rect>
-  <rect class="cell" x="531" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 9, 2026</title>
-  </rect>
-  <rect class="cell" x="544" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 10, 2026</title>
-  </rect>
-  <rect class="cell" x="544" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 11, 2026</title>
-  </rect>
-  <rect class="cell" x="544" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 12, 2026</title>
-  </rect>
-  <rect class="cell" x="544" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 13, 2026</title>
-  </rect>
-  <rect class="cell" x="544" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 14, 2026</title>
-  </rect>
-  <rect class="cell" x="544" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 15, 2026</title>
-  </rect>
-  <rect class="cell" x="544" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 16, 2026</title>
-  </rect>
-  <rect class="cell" x="557" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 17, 2026</title>
-  </rect>
-  <rect class="cell" x="557" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 18, 2026</title>
-  </rect>
-  <rect class="cell" x="557" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 19, 2026</title>
-  </rect>
-  <rect class="cell" x="557" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 20, 2026</title>
-  </rect>
-  <rect class="cell" x="557" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 21, 2026</title>
-  </rect>
-  <rect class="cell" x="557" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 22, 2026</title>
-  </rect>
-  <rect class="cell" x="557" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 23, 2026</title>
-  </rect>
-  <rect class="cell" x="570" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 24, 2026</title>
-  </rect>
-  <rect class="cell" x="570" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 25, 2026</title>
-  </rect>
-  <rect class="cell" x="570" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 26, 2026</title>
-  </rect>
-  <rect class="cell" x="570" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 27, 2026</title>
-  </rect>
-  <rect class="cell" x="570" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 28, 2026</title>
-  </rect>
-  <rect class="cell" x="570" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 29, 2026</title>
-  </rect>
-  <rect class="cell" x="570" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 30, 2026</title>
-  </rect>
-  <rect class="cell" x="583" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on May 31, 2026</title>
-  </rect>
-  <rect class="cell" x="583" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 1, 2026</title>
-  </rect>
-  <rect class="cell" x="583" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 2, 2026</title>
-  </rect>
-  <rect class="cell" x="583" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 3, 2026</title>
-  </rect>
-  <rect class="cell" x="583" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 4, 2026</title>
-  </rect>
-  <rect class="cell" x="583" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 5, 2026</title>
-  </rect>
-  <rect class="cell" x="583" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 6, 2026</title>
-  </rect>
-  <rect class="cell" x="596" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 7, 2026</title>
-  </rect>
-  <rect class="cell" x="596" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 8, 2026</title>
-  </rect>
-  <rect class="cell" x="596" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 9, 2026</title>
-  </rect>
-  <rect class="cell" x="596" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 10, 2026</title>
-  </rect>
-  <rect class="cell" x="596" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 11, 2026</title>
-  </rect>
-  <rect class="cell" x="596" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 12, 2026</title>
-  </rect>
-  <rect class="cell" x="596" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 13, 2026</title>
-  </rect>
-  <rect class="cell" x="609" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 14, 2026</title>
-  </rect>
-  <rect class="cell" x="609" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 15, 2026</title>
-  </rect>
-  <rect class="cell" x="609" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 16, 2026</title>
-  </rect>
-  <rect class="cell" x="609" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 17, 2026</title>
-  </rect>
-  <rect class="cell" x="609" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 18, 2026</title>
-  </rect>
-  <rect class="cell" x="609" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 19, 2026</title>
-  </rect>
-  <rect class="cell" x="609" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 20, 2026</title>
-  </rect>
-  <rect class="cell" x="622" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 21, 2026</title>
-  </rect>
-  <rect class="cell" x="622" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 22, 2026</title>
-  </rect>
-  <rect class="cell" x="622" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 23, 2026</title>
-  </rect>
-  <rect class="cell" x="622" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 24, 2026</title>
-  </rect>
-  <rect class="cell" x="622" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 25, 2026</title>
-  </rect>
-  <rect class="cell" x="622" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 26, 2026</title>
-  </rect>
-  <rect class="cell" x="622" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 27, 2026</title>
-  </rect>
-  <rect class="cell" x="635" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 28, 2026</title>
-  </rect>
-  <rect class="cell" x="635" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 29, 2026</title>
-  </rect>
-  <rect class="cell" x="635" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jun 30, 2026</title>
-  </rect>
-  <rect class="cell" x="635" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 1, 2026</title>
-  </rect>
-  <rect class="cell" x="635" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 2, 2026</title>
-  </rect>
-  <rect class="cell" x="635" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 3, 2026</title>
-  </rect>
-  <rect class="cell" x="635" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 4, 2026</title>
-  </rect>
-  <rect class="cell" x="648" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 5, 2026</title>
-  </rect>
-  <rect class="cell" x="648" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 6, 2026</title>
-  </rect>
-  <rect class="cell" x="648" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 7, 2026</title>
-  </rect>
-  <rect class="cell" x="648" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 8, 2026</title>
-  </rect>
-  <rect class="cell" x="648" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 9, 2026</title>
-  </rect>
-  <rect class="cell" x="648" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 10, 2026</title>
-  </rect>
-  <rect class="cell" x="648" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 11, 2026</title>
-  </rect>
-  <rect class="cell" x="661" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 12, 2026</title>
-  </rect>
-  <rect class="cell" x="661" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 13, 2026</title>
-  </rect>
-  <rect class="cell" x="661" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 14, 2026</title>
-  </rect>
-  <rect class="cell" x="661" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 15, 2026</title>
-  </rect>
-  <rect class="cell" x="661" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 16, 2026</title>
-  </rect>
-  <rect class="cell" x="661" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 17, 2026</title>
-  </rect>
-  <rect class="cell" x="661" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 18, 2026</title>
-  </rect>
-  <rect class="cell" x="674" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 19, 2026</title>
-  </rect>
-  <rect class="cell" x="674" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 20, 2026</title>
-  </rect>
-  <rect class="cell" x="674" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 21, 2026</title>
-  </rect>
-  <rect class="cell" x="674" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 22, 2026</title>
-  </rect>
-  <rect class="cell" x="674" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 23, 2026</title>
-  </rect>
-  <rect class="cell" x="674" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 24, 2026</title>
-  </rect>
-  <rect class="cell" x="674" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 25, 2026</title>
-  </rect>
-  <rect class="cell" x="687" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 26, 2026</title>
-  </rect>
-  <rect class="cell" x="687" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 27, 2026</title>
-  </rect>
-  <rect class="cell" x="687" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 28, 2026</title>
-  </rect>
-  <rect class="cell" x="687" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 29, 2026</title>
-  </rect>
-  <rect class="cell" x="687" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 30, 2026</title>
-  </rect>
-  <rect class="cell" x="687" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Jul 31, 2026</title>
-  </rect>
-  <rect class="cell" x="687" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 1, 2026</title>
-  </rect>
-  <rect class="cell" x="700" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 2, 2026</title>
-  </rect>
-  <rect class="cell" x="700" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 3, 2026</title>
-  </rect>
-  <rect class="cell" x="700" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 4, 2026</title>
-  </rect>
-  <rect class="cell" x="700" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 5, 2026</title>
-  </rect>
-  <rect class="cell" x="700" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 6, 2026</title>
-  </rect>
-  <rect class="cell" x="700" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 7, 2026</title>
-  </rect>
-  <rect class="cell" x="700" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 8, 2026</title>
-  </rect>
-  <rect class="cell" x="713" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 9, 2026</title>
-  </rect>
-  <rect class="cell" x="713" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 10, 2026</title>
-  </rect>
-  <rect class="cell" x="713" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 11, 2026</title>
-  </rect>
-  <rect class="cell" x="713" y="105" width="10" height="10" rx="2" fill="#40c463">
-    <title>1 problem solved on Aug 12, 2026</title>
-  </rect>
-  <text class="cell-count" x="718" y="112.5" text-anchor="middle">1</text>
-  <rect class="cell" x="713" y="118" width="10" height="10" rx="2" fill="#216e39">
-    <title>2 problems solved on Aug 13, 2026</title>
-  </rect>
-  <text class="cell-count" x="718" y="125.5" text-anchor="middle">2</text>
-  <rect class="cell" x="713" y="131" width="10" height="10" rx="2" fill="#216e39">
-    <title>2 problems solved on Aug 14, 2026</title>
-  </rect>
-  <text class="cell-count" x="718" y="138.5" text-anchor="middle">2</text>
-  <rect class="cell" x="713" y="144" width="10" height="10" rx="2" fill="#40c463">
-    <title>1 problem solved on Aug 15, 2026</title>
-  </rect>
-  <text class="cell-count" x="718" y="151.5" text-anchor="middle">1</text>
-  <rect class="cell" x="726" y="66" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 16, 2026</title>
-  </rect>
-  <rect class="cell" x="726" y="79" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 17, 2026</title>
-  </rect>
-  <rect class="padding" x="726" y="92" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 18, 2026</title>
-  </rect>
-  <rect class="padding" x="726" y="105" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 19, 2026</title>
-  </rect>
-  <rect class="padding" x="726" y="118" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 20, 2026</title>
-  </rect>
-  <rect class="padding" x="726" y="131" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 21, 2026</title>
-  </rect>
-  <rect class="padding" x="726" y="144" width="10" height="10" rx="2" fill="#161b22">
-    <title>0 problems solved on Aug 22, 2026</title>
-  </rect>
-  <text class="label" x="50" y="167">10 solved all time · first accepted solve · Asia/Kolkata</text>
-  <text class="label" x="651" y="167">Less</text>
-  <rect class="cell" x="677" y="159" width="10" height="10" rx="2" fill="#161b22" />
-  <rect class="cell" x="690" y="159" width="10" height="10" rx="2" fill="#9be9a8" />
-  <rect class="cell" x="703" y="159" width="10" height="10" rx="2" fill="#40c463" />
-  <rect class="cell" x="716" y="159" width="10" height="10" rx="2" fill="#30a14e" />
-  <rect class="cell" x="729" y="159" width="10" height="10" rx="2" fill="#216e39" />
-  <text class="label" x="744" y="167">More</text>
+  <rect width="1000" height="640" rx="18" fill="url(#canvas)"/>
+  <circle cx="850" cy="35" r="115" fill="#7c3aed" opacity=".10" filter="url(#glow)"/>
+  <rect x="1" y="1" width="998" height="638" rx="17" fill="none" stroke="#263247"/>
+  <rect x="36" y="28" width="4" height="52" rx="2" fill="url(#accent)"/>
+  <text class="eyebrow" x="56" y="39">CODEFORCES · LEARNING IN PUBLIC</text>
+  <text class="title" x="56" y="68">Practice Pulse</text>
+  <text class="subtitle" x="964" y="43" text-anchor="end">@codingwps</text>
+  <text class="label" x="964" y="65" text-anchor="end">CP-31 journey · updated 17 Aug 2026</text>
+  <rect class="card" x="36" y="101" width="212" height="91" rx="12"/>
+  <text class="eyebrow" x="54" y="124">UNIQUE SOLVES</text>
+  <text class="value" x="54" y="157">10</text>
+  <text class="tiny" x="54" y="177">first accepted problems</text>
+  <rect class="card" x="268" y="101" width="212" height="91" rx="12"/>
+  <text class="eyebrow" x="286" y="124">ACTIVE DAYS</text>
+  <text class="value" x="286" y="157">6</text>
+  <text class="tiny" x="286" y="177">across all recorded time</text>
+  <rect class="card" x="500" y="101" width="212" height="91" rx="12"/>
+  <text class="eyebrow" x="518" y="124">BEST STREAK</text>
+  <text class="value" x="518" y="157">4d</text>
+  <text class="tiny" x="518" y="177">latest run: 4 days</text>
+  <rect class="card" x="732" y="101" width="212" height="91" rx="12"/>
+  <text class="eyebrow" x="750" y="124">LAST 30 DAYS</text>
+  <text class="value" x="750" y="157">6</text>
+  <text class="tiny" x="750" y="177">new problems cleared</text>
+  <rect class="panel" x="36" y="216" width="928" height="224" rx="14"/>
+  <text class="section" x="56" y="246">365-day solving trail</text>
+  <text class="label" x="944" y="246" text-anchor="end">6 solves · 4 active days</text>
+  <text class="label" x="136" y="286">Sep</text>
+  <text class="label" x="192" y="286">Oct</text>
+  <text class="label" x="248" y="286">Nov</text>
+  <text class="label" x="318" y="286">Dec</text>
+  <text class="label" x="374" y="286">Jan</text>
+  <text class="label" x="444" y="286">Feb</text>
+  <text class="label" x="500" y="286">Mar</text>
+  <text class="label" x="556" y="286">Apr</text>
+  <text class="label" x="612" y="286">May</text>
+  <text class="label" x="682" y="286">Jun</text>
+  <text class="label" x="738" y="286">Jul</text>
+  <text class="label" x="794" y="286">Aug</text>
+  <text class="label" x="60" y="328">Mon</text>
+  <text class="label" x="60" y="356">Wed</text>
+  <text class="label" x="60" y="384">Fri</text>
+  <rect class="padding" x="108" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 17 Aug 2025</title></rect>
+  <rect class="cell" x="108" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 18 Aug 2025</title></rect>
+  <rect class="cell" x="108" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 19 Aug 2025</title></rect>
+  <rect class="cell" x="108" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 20 Aug 2025</title></rect>
+  <rect class="cell" x="108" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 21 Aug 2025</title></rect>
+  <rect class="cell" x="108" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 22 Aug 2025</title></rect>
+  <rect class="cell" x="108" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 23 Aug 2025</title></rect>
+  <rect class="cell" x="122" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 24 Aug 2025</title></rect>
+  <rect class="cell" x="122" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 25 Aug 2025</title></rect>
+  <rect class="cell" x="122" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 26 Aug 2025</title></rect>
+  <rect class="cell" x="122" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 27 Aug 2025</title></rect>
+  <rect class="cell" x="122" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 28 Aug 2025</title></rect>
+  <rect class="cell" x="122" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 29 Aug 2025</title></rect>
+  <rect class="cell" x="122" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 30 Aug 2025</title></rect>
+  <rect class="cell" x="136" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 31 Aug 2025</title></rect>
+  <rect class="cell" x="136" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 01 Sep 2025</title></rect>
+  <rect class="cell" x="136" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 02 Sep 2025</title></rect>
+  <rect class="cell" x="136" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 03 Sep 2025</title></rect>
+  <rect class="cell" x="136" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 04 Sep 2025</title></rect>
+  <rect class="cell" x="136" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 05 Sep 2025</title></rect>
+  <rect class="cell" x="136" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 06 Sep 2025</title></rect>
+  <rect class="cell" x="150" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 07 Sep 2025</title></rect>
+  <rect class="cell" x="150" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 08 Sep 2025</title></rect>
+  <rect class="cell" x="150" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 09 Sep 2025</title></rect>
+  <rect class="cell" x="150" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 10 Sep 2025</title></rect>
+  <rect class="cell" x="150" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 11 Sep 2025</title></rect>
+  <rect class="cell" x="150" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 12 Sep 2025</title></rect>
+  <rect class="cell" x="150" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 13 Sep 2025</title></rect>
+  <rect class="cell" x="164" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 14 Sep 2025</title></rect>
+  <rect class="cell" x="164" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 15 Sep 2025</title></rect>
+  <rect class="cell" x="164" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 16 Sep 2025</title></rect>
+  <rect class="cell" x="164" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 17 Sep 2025</title></rect>
+  <rect class="cell" x="164" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 18 Sep 2025</title></rect>
+  <rect class="cell" x="164" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 19 Sep 2025</title></rect>
+  <rect class="cell" x="164" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 20 Sep 2025</title></rect>
+  <rect class="cell" x="178" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 21 Sep 2025</title></rect>
+  <rect class="cell" x="178" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 22 Sep 2025</title></rect>
+  <rect class="cell" x="178" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 23 Sep 2025</title></rect>
+  <rect class="cell" x="178" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 24 Sep 2025</title></rect>
+  <rect class="cell" x="178" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 25 Sep 2025</title></rect>
+  <rect class="cell" x="178" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 26 Sep 2025</title></rect>
+  <rect class="cell" x="178" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 27 Sep 2025</title></rect>
+  <rect class="cell" x="192" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 28 Sep 2025</title></rect>
+  <rect class="cell" x="192" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 29 Sep 2025</title></rect>
+  <rect class="cell" x="192" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 30 Sep 2025</title></rect>
+  <rect class="cell" x="192" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 01 Oct 2025</title></rect>
+  <rect class="cell" x="192" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 02 Oct 2025</title></rect>
+  <rect class="cell" x="192" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 03 Oct 2025</title></rect>
+  <rect class="cell" x="192" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 04 Oct 2025</title></rect>
+  <rect class="cell" x="206" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 05 Oct 2025</title></rect>
+  <rect class="cell" x="206" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 06 Oct 2025</title></rect>
+  <rect class="cell" x="206" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 07 Oct 2025</title></rect>
+  <rect class="cell" x="206" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 08 Oct 2025</title></rect>
+  <rect class="cell" x="206" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 09 Oct 2025</title></rect>
+  <rect class="cell" x="206" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 10 Oct 2025</title></rect>
+  <rect class="cell" x="206" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 11 Oct 2025</title></rect>
+  <rect class="cell" x="220" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 12 Oct 2025</title></rect>
+  <rect class="cell" x="220" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 13 Oct 2025</title></rect>
+  <rect class="cell" x="220" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 14 Oct 2025</title></rect>
+  <rect class="cell" x="220" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 15 Oct 2025</title></rect>
+  <rect class="cell" x="220" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 16 Oct 2025</title></rect>
+  <rect class="cell" x="220" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 17 Oct 2025</title></rect>
+  <rect class="cell" x="220" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 18 Oct 2025</title></rect>
+  <rect class="cell" x="234" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 19 Oct 2025</title></rect>
+  <rect class="cell" x="234" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 20 Oct 2025</title></rect>
+  <rect class="cell" x="234" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 21 Oct 2025</title></rect>
+  <rect class="cell" x="234" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 22 Oct 2025</title></rect>
+  <rect class="cell" x="234" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 23 Oct 2025</title></rect>
+  <rect class="cell" x="234" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 24 Oct 2025</title></rect>
+  <rect class="cell" x="234" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 25 Oct 2025</title></rect>
+  <rect class="cell" x="248" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 26 Oct 2025</title></rect>
+  <rect class="cell" x="248" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 27 Oct 2025</title></rect>
+  <rect class="cell" x="248" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 28 Oct 2025</title></rect>
+  <rect class="cell" x="248" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 29 Oct 2025</title></rect>
+  <rect class="cell" x="248" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 30 Oct 2025</title></rect>
+  <rect class="cell" x="248" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 31 Oct 2025</title></rect>
+  <rect class="cell" x="248" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 01 Nov 2025</title></rect>
+  <rect class="cell" x="262" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 02 Nov 2025</title></rect>
+  <rect class="cell" x="262" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 03 Nov 2025</title></rect>
+  <rect class="cell" x="262" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 04 Nov 2025</title></rect>
+  <rect class="cell" x="262" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 05 Nov 2025</title></rect>
+  <rect class="cell" x="262" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 06 Nov 2025</title></rect>
+  <rect class="cell" x="262" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 07 Nov 2025</title></rect>
+  <rect class="cell" x="262" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 08 Nov 2025</title></rect>
+  <rect class="cell" x="276" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 09 Nov 2025</title></rect>
+  <rect class="cell" x="276" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 10 Nov 2025</title></rect>
+  <rect class="cell" x="276" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 11 Nov 2025</title></rect>
+  <rect class="cell" x="276" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 12 Nov 2025</title></rect>
+  <rect class="cell" x="276" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 13 Nov 2025</title></rect>
+  <rect class="cell" x="276" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 14 Nov 2025</title></rect>
+  <rect class="cell" x="276" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 15 Nov 2025</title></rect>
+  <rect class="cell" x="290" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 16 Nov 2025</title></rect>
+  <rect class="cell" x="290" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 17 Nov 2025</title></rect>
+  <rect class="cell" x="290" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 18 Nov 2025</title></rect>
+  <rect class="cell" x="290" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 19 Nov 2025</title></rect>
+  <rect class="cell" x="290" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 20 Nov 2025</title></rect>
+  <rect class="cell" x="290" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 21 Nov 2025</title></rect>
+  <rect class="cell" x="290" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 22 Nov 2025</title></rect>
+  <rect class="cell" x="304" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 23 Nov 2025</title></rect>
+  <rect class="cell" x="304" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 24 Nov 2025</title></rect>
+  <rect class="cell" x="304" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 25 Nov 2025</title></rect>
+  <rect class="cell" x="304" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 26 Nov 2025</title></rect>
+  <rect class="cell" x="304" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 27 Nov 2025</title></rect>
+  <rect class="cell" x="304" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 28 Nov 2025</title></rect>
+  <rect class="cell" x="304" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 29 Nov 2025</title></rect>
+  <rect class="cell" x="318" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 30 Nov 2025</title></rect>
+  <rect class="cell" x="318" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 01 Dec 2025</title></rect>
+  <rect class="cell" x="318" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 02 Dec 2025</title></rect>
+  <rect class="cell" x="318" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 03 Dec 2025</title></rect>
+  <rect class="cell" x="318" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 04 Dec 2025</title></rect>
+  <rect class="cell" x="318" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 05 Dec 2025</title></rect>
+  <rect class="cell" x="318" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 06 Dec 2025</title></rect>
+  <rect class="cell" x="332" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 07 Dec 2025</title></rect>
+  <rect class="cell" x="332" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 08 Dec 2025</title></rect>
+  <rect class="cell" x="332" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 09 Dec 2025</title></rect>
+  <rect class="cell" x="332" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 10 Dec 2025</title></rect>
+  <rect class="cell" x="332" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 11 Dec 2025</title></rect>
+  <rect class="cell" x="332" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 12 Dec 2025</title></rect>
+  <rect class="cell" x="332" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 13 Dec 2025</title></rect>
+  <rect class="cell" x="346" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 14 Dec 2025</title></rect>
+  <rect class="cell" x="346" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 15 Dec 2025</title></rect>
+  <rect class="cell" x="346" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 16 Dec 2025</title></rect>
+  <rect class="cell" x="346" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 17 Dec 2025</title></rect>
+  <rect class="cell" x="346" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 18 Dec 2025</title></rect>
+  <rect class="cell" x="346" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 19 Dec 2025</title></rect>
+  <rect class="cell" x="346" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 20 Dec 2025</title></rect>
+  <rect class="cell" x="360" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 21 Dec 2025</title></rect>
+  <rect class="cell" x="360" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 22 Dec 2025</title></rect>
+  <rect class="cell" x="360" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 23 Dec 2025</title></rect>
+  <rect class="cell" x="360" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 24 Dec 2025</title></rect>
+  <rect class="cell" x="360" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 25 Dec 2025</title></rect>
+  <rect class="cell" x="360" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 26 Dec 2025</title></rect>
+  <rect class="cell" x="360" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 27 Dec 2025</title></rect>
+  <rect class="cell" x="374" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 28 Dec 2025</title></rect>
+  <rect class="cell" x="374" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 29 Dec 2025</title></rect>
+  <rect class="cell" x="374" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 30 Dec 2025</title></rect>
+  <rect class="cell" x="374" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 31 Dec 2025</title></rect>
+  <rect class="cell" x="374" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 01 Jan 2026</title></rect>
+  <rect class="cell" x="374" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 02 Jan 2026</title></rect>
+  <rect class="cell" x="374" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 03 Jan 2026</title></rect>
+  <rect class="cell" x="388" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 04 Jan 2026</title></rect>
+  <rect class="cell" x="388" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 05 Jan 2026</title></rect>
+  <rect class="cell" x="388" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 06 Jan 2026</title></rect>
+  <rect class="cell" x="388" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 07 Jan 2026</title></rect>
+  <rect class="cell" x="388" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 08 Jan 2026</title></rect>
+  <rect class="cell" x="388" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 09 Jan 2026</title></rect>
+  <rect class="cell" x="388" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 10 Jan 2026</title></rect>
+  <rect class="cell" x="402" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 11 Jan 2026</title></rect>
+  <rect class="cell" x="402" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 12 Jan 2026</title></rect>
+  <rect class="cell" x="402" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 13 Jan 2026</title></rect>
+  <rect class="cell" x="402" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 14 Jan 2026</title></rect>
+  <rect class="cell" x="402" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 15 Jan 2026</title></rect>
+  <rect class="cell" x="402" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 16 Jan 2026</title></rect>
+  <rect class="cell" x="402" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 17 Jan 2026</title></rect>
+  <rect class="cell" x="416" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 18 Jan 2026</title></rect>
+  <rect class="cell" x="416" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 19 Jan 2026</title></rect>
+  <rect class="cell" x="416" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 20 Jan 2026</title></rect>
+  <rect class="cell" x="416" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 21 Jan 2026</title></rect>
+  <rect class="cell" x="416" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 22 Jan 2026</title></rect>
+  <rect class="cell" x="416" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 23 Jan 2026</title></rect>
+  <rect class="cell" x="416" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 24 Jan 2026</title></rect>
+  <rect class="cell" x="430" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 25 Jan 2026</title></rect>
+  <rect class="cell" x="430" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 26 Jan 2026</title></rect>
+  <rect class="cell" x="430" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 27 Jan 2026</title></rect>
+  <rect class="cell" x="430" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 28 Jan 2026</title></rect>
+  <rect class="cell" x="430" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 29 Jan 2026</title></rect>
+  <rect class="cell" x="430" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 30 Jan 2026</title></rect>
+  <rect class="cell" x="430" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 31 Jan 2026</title></rect>
+  <rect class="cell" x="444" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 01 Feb 2026</title></rect>
+  <rect class="cell" x="444" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 02 Feb 2026</title></rect>
+  <rect class="cell" x="444" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 03 Feb 2026</title></rect>
+  <rect class="cell" x="444" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 04 Feb 2026</title></rect>
+  <rect class="cell" x="444" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 05 Feb 2026</title></rect>
+  <rect class="cell" x="444" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 06 Feb 2026</title></rect>
+  <rect class="cell" x="444" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 07 Feb 2026</title></rect>
+  <rect class="cell" x="458" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 08 Feb 2026</title></rect>
+  <rect class="cell" x="458" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 09 Feb 2026</title></rect>
+  <rect class="cell" x="458" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 10 Feb 2026</title></rect>
+  <rect class="cell" x="458" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 11 Feb 2026</title></rect>
+  <rect class="cell" x="458" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 12 Feb 2026</title></rect>
+  <rect class="cell" x="458" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 13 Feb 2026</title></rect>
+  <rect class="cell" x="458" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 14 Feb 2026</title></rect>
+  <rect class="cell" x="472" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 15 Feb 2026</title></rect>
+  <rect class="cell" x="472" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 16 Feb 2026</title></rect>
+  <rect class="cell" x="472" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 17 Feb 2026</title></rect>
+  <rect class="cell" x="472" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 18 Feb 2026</title></rect>
+  <rect class="cell" x="472" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 19 Feb 2026</title></rect>
+  <rect class="cell" x="472" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 20 Feb 2026</title></rect>
+  <rect class="cell" x="472" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 21 Feb 2026</title></rect>
+  <rect class="cell" x="486" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 22 Feb 2026</title></rect>
+  <rect class="cell" x="486" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 23 Feb 2026</title></rect>
+  <rect class="cell" x="486" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 24 Feb 2026</title></rect>
+  <rect class="cell" x="486" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 25 Feb 2026</title></rect>
+  <rect class="cell" x="486" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 26 Feb 2026</title></rect>
+  <rect class="cell" x="486" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 27 Feb 2026</title></rect>
+  <rect class="cell" x="486" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 28 Feb 2026</title></rect>
+  <rect class="cell" x="500" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 01 Mar 2026</title></rect>
+  <rect class="cell" x="500" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 02 Mar 2026</title></rect>
+  <rect class="cell" x="500" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 03 Mar 2026</title></rect>
+  <rect class="cell" x="500" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 04 Mar 2026</title></rect>
+  <rect class="cell" x="500" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 05 Mar 2026</title></rect>
+  <rect class="cell" x="500" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 06 Mar 2026</title></rect>
+  <rect class="cell" x="500" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 07 Mar 2026</title></rect>
+  <rect class="cell" x="514" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 08 Mar 2026</title></rect>
+  <rect class="cell" x="514" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 09 Mar 2026</title></rect>
+  <rect class="cell" x="514" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 10 Mar 2026</title></rect>
+  <rect class="cell" x="514" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 11 Mar 2026</title></rect>
+  <rect class="cell" x="514" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 12 Mar 2026</title></rect>
+  <rect class="cell" x="514" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 13 Mar 2026</title></rect>
+  <rect class="cell" x="514" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 14 Mar 2026</title></rect>
+  <rect class="cell" x="528" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 15 Mar 2026</title></rect>
+  <rect class="cell" x="528" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 16 Mar 2026</title></rect>
+  <rect class="cell" x="528" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 17 Mar 2026</title></rect>
+  <rect class="cell" x="528" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 18 Mar 2026</title></rect>
+  <rect class="cell" x="528" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 19 Mar 2026</title></rect>
+  <rect class="cell" x="528" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 20 Mar 2026</title></rect>
+  <rect class="cell" x="528" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 21 Mar 2026</title></rect>
+  <rect class="cell" x="542" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 22 Mar 2026</title></rect>
+  <rect class="cell" x="542" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 23 Mar 2026</title></rect>
+  <rect class="cell" x="542" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 24 Mar 2026</title></rect>
+  <rect class="cell" x="542" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 25 Mar 2026</title></rect>
+  <rect class="cell" x="542" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 26 Mar 2026</title></rect>
+  <rect class="cell" x="542" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 27 Mar 2026</title></rect>
+  <rect class="cell" x="542" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 28 Mar 2026</title></rect>
+  <rect class="cell" x="556" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 29 Mar 2026</title></rect>
+  <rect class="cell" x="556" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 30 Mar 2026</title></rect>
+  <rect class="cell" x="556" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 31 Mar 2026</title></rect>
+  <rect class="cell" x="556" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 01 Apr 2026</title></rect>
+  <rect class="cell" x="556" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 02 Apr 2026</title></rect>
+  <rect class="cell" x="556" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 03 Apr 2026</title></rect>
+  <rect class="cell" x="556" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 04 Apr 2026</title></rect>
+  <rect class="cell" x="570" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 05 Apr 2026</title></rect>
+  <rect class="cell" x="570" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 06 Apr 2026</title></rect>
+  <rect class="cell" x="570" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 07 Apr 2026</title></rect>
+  <rect class="cell" x="570" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 08 Apr 2026</title></rect>
+  <rect class="cell" x="570" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 09 Apr 2026</title></rect>
+  <rect class="cell" x="570" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 10 Apr 2026</title></rect>
+  <rect class="cell" x="570" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 11 Apr 2026</title></rect>
+  <rect class="cell" x="584" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 12 Apr 2026</title></rect>
+  <rect class="cell" x="584" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 13 Apr 2026</title></rect>
+  <rect class="cell" x="584" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 14 Apr 2026</title></rect>
+  <rect class="cell" x="584" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 15 Apr 2026</title></rect>
+  <rect class="cell" x="584" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 16 Apr 2026</title></rect>
+  <rect class="cell" x="584" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 17 Apr 2026</title></rect>
+  <rect class="cell" x="584" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 18 Apr 2026</title></rect>
+  <rect class="cell" x="598" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 19 Apr 2026</title></rect>
+  <rect class="cell" x="598" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 20 Apr 2026</title></rect>
+  <rect class="cell" x="598" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 21 Apr 2026</title></rect>
+  <rect class="cell" x="598" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 22 Apr 2026</title></rect>
+  <rect class="cell" x="598" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 23 Apr 2026</title></rect>
+  <rect class="cell" x="598" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 24 Apr 2026</title></rect>
+  <rect class="cell" x="598" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 25 Apr 2026</title></rect>
+  <rect class="cell" x="612" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 26 Apr 2026</title></rect>
+  <rect class="cell" x="612" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 27 Apr 2026</title></rect>
+  <rect class="cell" x="612" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 28 Apr 2026</title></rect>
+  <rect class="cell" x="612" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 29 Apr 2026</title></rect>
+  <rect class="cell" x="612" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 30 Apr 2026</title></rect>
+  <rect class="cell" x="612" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 01 May 2026</title></rect>
+  <rect class="cell" x="612" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 02 May 2026</title></rect>
+  <rect class="cell" x="626" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 03 May 2026</title></rect>
+  <rect class="cell" x="626" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 04 May 2026</title></rect>
+  <rect class="cell" x="626" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 05 May 2026</title></rect>
+  <rect class="cell" x="626" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 06 May 2026</title></rect>
+  <rect class="cell" x="626" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 07 May 2026</title></rect>
+  <rect class="cell" x="626" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 08 May 2026</title></rect>
+  <rect class="cell" x="626" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 09 May 2026</title></rect>
+  <rect class="cell" x="640" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 10 May 2026</title></rect>
+  <rect class="cell" x="640" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 11 May 2026</title></rect>
+  <rect class="cell" x="640" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 12 May 2026</title></rect>
+  <rect class="cell" x="640" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 13 May 2026</title></rect>
+  <rect class="cell" x="640" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 14 May 2026</title></rect>
+  <rect class="cell" x="640" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 15 May 2026</title></rect>
+  <rect class="cell" x="640" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 16 May 2026</title></rect>
+  <rect class="cell" x="654" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 17 May 2026</title></rect>
+  <rect class="cell" x="654" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 18 May 2026</title></rect>
+  <rect class="cell" x="654" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 19 May 2026</title></rect>
+  <rect class="cell" x="654" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 20 May 2026</title></rect>
+  <rect class="cell" x="654" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 21 May 2026</title></rect>
+  <rect class="cell" x="654" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 22 May 2026</title></rect>
+  <rect class="cell" x="654" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 23 May 2026</title></rect>
+  <rect class="cell" x="668" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 24 May 2026</title></rect>
+  <rect class="cell" x="668" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 25 May 2026</title></rect>
+  <rect class="cell" x="668" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 26 May 2026</title></rect>
+  <rect class="cell" x="668" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 27 May 2026</title></rect>
+  <rect class="cell" x="668" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 28 May 2026</title></rect>
+  <rect class="cell" x="668" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 29 May 2026</title></rect>
+  <rect class="cell" x="668" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 30 May 2026</title></rect>
+  <rect class="cell" x="682" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 31 May 2026</title></rect>
+  <rect class="cell" x="682" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 01 Jun 2026</title></rect>
+  <rect class="cell" x="682" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 02 Jun 2026</title></rect>
+  <rect class="cell" x="682" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 03 Jun 2026</title></rect>
+  <rect class="cell" x="682" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 04 Jun 2026</title></rect>
+  <rect class="cell" x="682" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 05 Jun 2026</title></rect>
+  <rect class="cell" x="682" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 06 Jun 2026</title></rect>
+  <rect class="cell" x="696" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 07 Jun 2026</title></rect>
+  <rect class="cell" x="696" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 08 Jun 2026</title></rect>
+  <rect class="cell" x="696" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 09 Jun 2026</title></rect>
+  <rect class="cell" x="696" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 10 Jun 2026</title></rect>
+  <rect class="cell" x="696" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 11 Jun 2026</title></rect>
+  <rect class="cell" x="696" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 12 Jun 2026</title></rect>
+  <rect class="cell" x="696" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 13 Jun 2026</title></rect>
+  <rect class="cell" x="710" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 14 Jun 2026</title></rect>
+  <rect class="cell" x="710" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 15 Jun 2026</title></rect>
+  <rect class="cell" x="710" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 16 Jun 2026</title></rect>
+  <rect class="cell" x="710" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 17 Jun 2026</title></rect>
+  <rect class="cell" x="710" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 18 Jun 2026</title></rect>
+  <rect class="cell" x="710" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 19 Jun 2026</title></rect>
+  <rect class="cell" x="710" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 20 Jun 2026</title></rect>
+  <rect class="cell" x="724" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 21 Jun 2026</title></rect>
+  <rect class="cell" x="724" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 22 Jun 2026</title></rect>
+  <rect class="cell" x="724" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 23 Jun 2026</title></rect>
+  <rect class="cell" x="724" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 24 Jun 2026</title></rect>
+  <rect class="cell" x="724" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 25 Jun 2026</title></rect>
+  <rect class="cell" x="724" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 26 Jun 2026</title></rect>
+  <rect class="cell" x="724" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 27 Jun 2026</title></rect>
+  <rect class="cell" x="738" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 28 Jun 2026</title></rect>
+  <rect class="cell" x="738" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 29 Jun 2026</title></rect>
+  <rect class="cell" x="738" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 30 Jun 2026</title></rect>
+  <rect class="cell" x="738" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 01 Jul 2026</title></rect>
+  <rect class="cell" x="738" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 02 Jul 2026</title></rect>
+  <rect class="cell" x="738" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 03 Jul 2026</title></rect>
+  <rect class="cell" x="738" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 04 Jul 2026</title></rect>
+  <rect class="cell" x="752" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 05 Jul 2026</title></rect>
+  <rect class="cell" x="752" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 06 Jul 2026</title></rect>
+  <rect class="cell" x="752" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 07 Jul 2026</title></rect>
+  <rect class="cell" x="752" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 08 Jul 2026</title></rect>
+  <rect class="cell" x="752" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 09 Jul 2026</title></rect>
+  <rect class="cell" x="752" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 10 Jul 2026</title></rect>
+  <rect class="cell" x="752" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 11 Jul 2026</title></rect>
+  <rect class="cell" x="766" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 12 Jul 2026</title></rect>
+  <rect class="cell" x="766" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 13 Jul 2026</title></rect>
+  <rect class="cell" x="766" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 14 Jul 2026</title></rect>
+  <rect class="cell" x="766" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 15 Jul 2026</title></rect>
+  <rect class="cell" x="766" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 16 Jul 2026</title></rect>
+  <rect class="cell" x="766" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 17 Jul 2026</title></rect>
+  <rect class="cell" x="766" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 18 Jul 2026</title></rect>
+  <rect class="cell" x="780" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 19 Jul 2026</title></rect>
+  <rect class="cell" x="780" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 20 Jul 2026</title></rect>
+  <rect class="cell" x="780" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 21 Jul 2026</title></rect>
+  <rect class="cell" x="780" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 22 Jul 2026</title></rect>
+  <rect class="cell" x="780" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 23 Jul 2026</title></rect>
+  <rect class="cell" x="780" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 24 Jul 2026</title></rect>
+  <rect class="cell" x="780" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 25 Jul 2026</title></rect>
+  <rect class="cell" x="794" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 26 Jul 2026</title></rect>
+  <rect class="cell" x="794" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 27 Jul 2026</title></rect>
+  <rect class="cell" x="794" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 28 Jul 2026</title></rect>
+  <rect class="cell" x="794" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 29 Jul 2026</title></rect>
+  <rect class="cell" x="794" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 30 Jul 2026</title></rect>
+  <rect class="cell" x="794" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 31 Jul 2026</title></rect>
+  <rect class="cell" x="794" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 01 Aug 2026</title></rect>
+  <rect class="cell" x="808" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 02 Aug 2026</title></rect>
+  <rect class="cell" x="808" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 03 Aug 2026</title></rect>
+  <rect class="cell" x="808" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 04 Aug 2026</title></rect>
+  <rect class="cell" x="808" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 05 Aug 2026</title></rect>
+  <rect class="cell" x="808" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 06 Aug 2026</title></rect>
+  <rect class="cell" x="808" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 07 Aug 2026</title></rect>
+  <rect class="cell" x="808" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 08 Aug 2026</title></rect>
+  <rect class="cell" x="822" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 09 Aug 2026</title></rect>
+  <rect class="cell" x="822" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 10 Aug 2026</title></rect>
+  <rect class="cell" x="822" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 11 Aug 2026</title></rect>
+  <rect class="cell" x="822" y="348" width="10" height="10" rx="2.5" fill="#0e7490"><title>1 problem solved on 12 Aug 2026</title></rect>
+  <text class="cell-count" x="827" y="355.5" text-anchor="middle">1</text>
+  <rect class="cell" x="822" y="362" width="10" height="10" rx="2.5" fill="#67e8f9"><title>2 problems solved on 13 Aug 2026</title></rect>
+  <text class="cell-count" x="827" y="369.5" text-anchor="middle">2</text>
+  <rect class="cell" x="822" y="376" width="10" height="10" rx="2.5" fill="#67e8f9"><title>2 problems solved on 14 Aug 2026</title></rect>
+  <text class="cell-count" x="827" y="383.5" text-anchor="middle">2</text>
+  <rect class="cell" x="822" y="390" width="10" height="10" rx="2.5" fill="#0e7490"><title>1 problem solved on 15 Aug 2026</title></rect>
+  <text class="cell-count" x="827" y="397.5" text-anchor="middle">1</text>
+  <rect class="cell" x="836" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 16 Aug 2026</title></rect>
+  <rect class="cell" x="836" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 17 Aug 2026</title></rect>
+  <rect class="padding" x="836" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 18 Aug 2026</title></rect>
+  <rect class="padding" x="836" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 19 Aug 2026</title></rect>
+  <rect class="padding" x="836" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 20 Aug 2026</title></rect>
+  <rect class="padding" x="836" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 21 Aug 2026</title></rect>
+  <rect class="padding" x="836" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 22 Aug 2026</title></rect>
+  <text class="tiny" x="60" y="420">Each square marks a first accepted solution · Asia/Kolkata</text>
+  <text class="tiny" x="814" y="420">LESS</text>
+  <rect class="cell" x="848" y="410" width="10" height="10" rx="2.5" fill="#151d2c"/>
+  <rect class="cell" x="863" y="410" width="10" height="10" rx="2.5" fill="#164e63"/>
+  <rect class="cell" x="878" y="410" width="10" height="10" rx="2.5" fill="#0e7490"/>
+  <rect class="cell" x="893" y="410" width="10" height="10" rx="2.5" fill="#06b6d4"/>
+  <rect class="cell" x="908" y="410" width="10" height="10" rx="2.5" fill="#67e8f9"/>
+  <text class="tiny" x="928" y="420">MORE</text>
+  <rect class="panel" x="36" y="460" width="300" height="147" rx="14"/>
+  <text class="eyebrow" x="54" y="486">DIFFICULTY LADDER</text>
+  <rect class="panel" x="354" y="460" width="300" height="147" rx="14"/>
+  <text class="eyebrow" x="372" y="486">TOPIC FINGERPRINT</text>
+  <rect class="panel" x="672" y="460" width="292" height="147" rx="14"/>
+  <text class="eyebrow" x="690" y="486">RECENT WINS</text>
+  <text class="label" x="54" y="518">800</text>
+  <rect x="103" y="510" width="172" height="9" rx="4.5" fill="#172033"/>
+  <rect x="103" y="510" width="172.0" height="9" rx="4.5" fill="url(#accent)"/>
+  <text class="tiny" x="314" y="518" text-anchor="end">10</text>
+  <text class="label" x="372" y="518">strings</text>
+  <rect x="492" y="510" width="122" height="9" rx="4.5" fill="#172033"/>
+  <rect x="492" y="510" width="122.0" height="9" rx="4.5" fill="#a78bfa"/>
+  <text class="tiny" x="632" y="518" text-anchor="end">5</text>
+  <text class="label" x="372" y="540">greedy</text>
+  <rect x="492" y="532" width="122" height="9" rx="4.5" fill="#172033"/>
+  <rect x="492" y="532" width="97.6" height="9" rx="4.5" fill="#a78bfa"/>
+  <text class="tiny" x="632" y="540" text-anchor="end">4</text>
+  <text class="label" x="372" y="562">implementation</text>
+  <rect x="492" y="554" width="122" height="9" rx="4.5" fill="#172033"/>
+  <rect x="492" y="554" width="97.6" height="9" rx="4.5" fill="#a78bfa"/>
+  <text class="tiny" x="632" y="562" text-anchor="end">4</text>
+  <text class="label" x="372" y="584">brute force</text>
+  <rect x="492" y="576" width="122" height="9" rx="4.5" fill="#172033"/>
+  <rect x="492" y="576" width="73.2" height="9" rx="4.5" fill="#a78bfa"/>
+  <text class="tiny" x="632" y="584" text-anchor="end">3</text>
+  <circle cx="692" cy="513" r="4" fill="#22d3ee"/>
+  <text class="strong" x="705" y="516">Don&#x27;t Try to Count</text>
+  <text class="tiny" x="944" y="516" text-anchor="end">1881A · 15 Aug</text>
+  <circle cx="692" cy="547" r="4" fill="#22d3ee"/>
+  <text class="strong" x="705" y="550">Game with Integers</text>
+  <text class="tiny" x="944" y="550" text-anchor="end">1899A · 14 Aug</text>
+  <circle cx="692" cy="581" r="4" fill="#22d3ee"/>
+  <text class="strong" x="705" y="584">Jagged Swaps</text>
+  <text class="tiny" x="944" y="584" text-anchor="end">1896A · 14 Aug</text>
+  <rect x="36" y="623" width="928" height="1" fill="#263247"/>
+  <text class="tiny" x="36" y="636">LIVE FROM THE CODEFORCES API · UNIQUE FIRST ACCEPTED SOLVES</text>
+  <text class="tiny" x="964" y="636" text-anchor="end">KEEP SHOWING UP ↗</text>
 </svg>
