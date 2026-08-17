@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" role="img" aria-labelledby="title description">
   <title id="title">@codingwps Codeforces Practice Pulse</title>
-  <desc id="description">A live practice dashboard showing 12 unique solved problems, 7 active days, and a 4-day best streak.</desc>
+  <desc id="description">A live practice dashboard showing 13 unique solved problems, 7 active days, and a 4-day best streak.</desc>
   <defs>
     <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08111f"/><stop offset="1" stop-color="#0d0b1c"/></linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
@@ -30,7 +30,7 @@
   <text class="label" x="964" y="65" text-anchor="end">CP-31 journey · updated 17 Aug 2026</text>
   <rect class="card" x="36" y="101" width="212" height="91" rx="12"/>
   <text class="eyebrow" x="54" y="124">UNIQUE SOLVES</text>
-  <text class="value" x="54" y="157">12</text>
+  <text class="value" x="54" y="157">13</text>
   <text class="tiny" x="54" y="177">first accepted problems</text>
   <rect class="card" x="268" y="101" width="212" height="91" rx="12"/>
   <text class="eyebrow" x="286" y="124">ACTIVE DAYS</text>
@@ -42,11 +42,11 @@
   <text class="tiny" x="518" y="177">latest run: 1 day</text>
   <rect class="card" x="732" y="101" width="212" height="91" rx="12"/>
   <text class="eyebrow" x="750" y="124">LAST 30 DAYS</text>
-  <text class="value" x="750" y="157">8</text>
+  <text class="value" x="750" y="157">9</text>
   <text class="tiny" x="750" y="177">new problems cleared</text>
   <rect class="panel" x="36" y="216" width="928" height="224" rx="14"/>
   <text class="section" x="56" y="246">365-day solving trail</text>
-  <text class="label" x="944" y="246" text-anchor="end">8 solves · 5 active days</text>
+  <text class="label" x="944" y="246" text-anchor="end">9 solves · 5 active days</text>
   <text class="label" x="136" y="286">Sep</text>
   <text class="label" x="192" y="286">Oct</text>
   <text class="label" x="248" y="286">Nov</text>
@@ -424,15 +424,15 @@
   <rect class="cell" x="822" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 11 Aug 2026</title></rect>
   <rect class="cell" x="822" y="348" width="10" height="10" rx="2.5" fill="#0e7490"><title>1 problem solved on 12 Aug 2026</title></rect>
   <text class="cell-count" x="827" y="355.5" text-anchor="middle">1</text>
-  <rect class="cell" x="822" y="362" width="10" height="10" rx="2.5" fill="#67e8f9"><title>2 problems solved on 13 Aug 2026</title></rect>
+  <rect class="cell" x="822" y="362" width="10" height="10" rx="2.5" fill="#06b6d4"><title>2 problems solved on 13 Aug 2026</title></rect>
   <text class="cell-count" x="827" y="369.5" text-anchor="middle">2</text>
-  <rect class="cell" x="822" y="376" width="10" height="10" rx="2.5" fill="#67e8f9"><title>2 problems solved on 14 Aug 2026</title></rect>
+  <rect class="cell" x="822" y="376" width="10" height="10" rx="2.5" fill="#06b6d4"><title>2 problems solved on 14 Aug 2026</title></rect>
   <text class="cell-count" x="827" y="383.5" text-anchor="middle">2</text>
   <rect class="cell" x="822" y="390" width="10" height="10" rx="2.5" fill="#0e7490"><title>1 problem solved on 15 Aug 2026</title></rect>
   <text class="cell-count" x="827" y="397.5" text-anchor="middle">1</text>
   <rect class="cell" x="836" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 16 Aug 2026</title></rect>
-  <rect class="cell" x="836" y="320" width="10" height="10" rx="2.5" fill="#67e8f9"><title>2 problems solved on 17 Aug 2026</title></rect>
-  <text class="cell-count" x="841" y="327.5" text-anchor="middle">2</text>
+  <rect class="cell" x="836" y="320" width="10" height="10" rx="2.5" fill="#67e8f9"><title>3 problems solved on 17 Aug 2026</title></rect>
+  <text class="cell-count" x="841" y="327.5" text-anchor="middle">3</text>
   <rect class="padding" x="836" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 18 Aug 2026</title></rect>
   <rect class="padding" x="836" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 19 Aug 2026</title></rect>
   <rect class="padding" x="836" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 20 Aug 2026</title></rect>
@@ -455,7 +455,7 @@
   <text class="label" x="54" y="518">800</text>
   <rect x="103" y="510" width="172" height="9" rx="4.5" fill="#172033"/>
   <rect x="103" y="510" width="172.0" height="9" rx="4.5" fill="url(#accent)"/>
-  <text class="tiny" x="314" y="518" text-anchor="end">12</text>
+  <text class="tiny" x="314" y="518" text-anchor="end">13</text>
   <text class="label" x="372" y="518">greedy</text>
   <rect x="492" y="510" width="122" height="9" rx="4.5" fill="#172033"/>
   <rect x="492" y="510" width="122.0" height="9" rx="4.5" fill="#a78bfa"/>
@@ -479,8 +479,8 @@
   <text class="strong" x="705" y="550">How Much Does Daytona Cost?</text>
   <text class="tiny" x="944" y="550" text-anchor="end">1878A · 17 Aug</text>
   <circle cx="692" cy="581" r="4" fill="#22d3ee"/>
-  <text class="strong" x="705" y="584">Don&#x27;t Try to Count</text>
-  <text class="tiny" x="944" y="584" text-anchor="end">1881A · 15 Aug</text>
+  <text class="strong" x="705" y="584">Goals of Victory</text>
+  <text class="tiny" x="944" y="584" text-anchor="end">1877A · 17 Aug</text>
   <rect x="36" y="623" width="928" height="1" fill="#263247"/>
   <text class="tiny" x="36" y="636">LIVE FROM THE CODEFORCES API · UNIQUE FIRST ACCEPTED SOLVES</text>
   <text class="tiny" x="964" y="636" text-anchor="end">KEEP SHOWING UP ↗</text>
