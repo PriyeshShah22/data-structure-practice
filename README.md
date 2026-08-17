@@ -28,7 +28,7 @@ Problems are grouped by their main reusable idea to keep this revision list comp
 | Invariants & ordering | [Jagged Swaps](https://codeforces.com/problemset/problem/1896/A) ([code](800-level/jagged%20swaps.py)) |
 | Games & modular math | [Game with Integers](https://codeforces.com/problemset/problem/1899/A) ([code](800-level/game%20with%20integer.py)) |
 | Frequency & constructive | **[Doremy's Paint 3](https://codeforces.com/problemset/problem/1890/A)** ([code](800-level/doremys%20paint%203.py)) |
-| Membership check | **[How Much Does Daytona Cost?](https://codeforces.com/problemset/problem/1878/A)** ([code](800-level/how%20much%20does%20daytona%20cost.py)) |
+| Membership check | [How Much Does Daytona Cost?](https://codeforces.com/problemset/problem/1878/A) ([code](800-level/how%20much%20does%20daytona%20cost.py)) |
 
 ## Practice pulse
 
