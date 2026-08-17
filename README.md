@@ -31,6 +31,7 @@ I am learning to write better code by solving Codeforces problems consistently. 
 | [1896A — Jagged Swaps](https://codeforces.com/problemset/problem/1896/A) | Invariant, sorting | [Python](800-level/jagged%20swaps.py) |
 | [1900A — Cover in Water](https://codeforces.com/problemset/problem/1900/A) | Greedy, strings | [Python](800-level/cover%20in%20water.py) |
 | [1881A — Don't Try to Count](https://codeforces.com/problemset/problem/1881/A) | Brute force, strings | [Python](800-level/don%27t%20try%20to%20count.py) |
+| [1890A — Doremy's Paint 3](https://codeforces.com/problemset/problem/1890/A) | Constructive algorithms, frequency counting | [Python](800-level/doremys%20paint%203.py) |
 
 New rating sections will be added as I progress through the sheet.
 
