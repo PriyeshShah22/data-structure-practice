@@ -29,7 +29,7 @@ Problems are grouped by their main reusable idea to keep this revision list comp
 | Math & games | [Game with Integers](https://codeforces.com/problemset/problem/1899/A) ([code](800-level/game%20with%20integer.py)), [Goals of Victory](https://codeforces.com/problemset/problem/1877/A) ([code](800-level/goals%20of%20victory.py)), [Ambitious Kid](https://codeforces.com/problemset/problem/1866/A) ([code](800-level/ambitious%20kid.py)) |
 | Frequency & constructive | **[Doremy's Paint 3](https://codeforces.com/problemset/problem/1890/A)** ([code](800-level/doremys%20paint%203.py)) |
 | Membership check | [How Much Does Daytona Cost?](https://codeforces.com/problemset/problem/1878/A) ([code](800-level/how%20much%20does%20daytona%20cost.py)) |
-| Grid simulation | **[Target Practice](https://codeforces.com/problemset/problem/1873/C) ([code](800-level/target%20practice.py))** |
+| Grid simulation | **[Target Practice](https://codeforces.com/problemset/problem/1873/C)** ([code](800-level/target%20practice.py)) |
 
 ## Practice pulse
 
