@@ -27,7 +27,7 @@
   <text class="eyebrow" x="56" y="39">CODEFORCES · LEARNING IN PUBLIC</text>
   <text class="title" x="56" y="68">Practice Pulse</text>
   <text class="subtitle" x="964" y="43" text-anchor="end">@codingwps</text>
-  <text class="label" x="964" y="65" text-anchor="end">CP-31 journey · updated 23 Aug 2026</text>
+  <text class="label" x="964" y="65" text-anchor="end">CP-31 journey · updated 24 Aug 2026</text>
   <rect class="card" x="36" y="101" width="212" height="91" rx="12"/>
   <text class="eyebrow" x="54" y="124">UNIQUE SOLVES</text>
   <text class="value" x="54" y="157">15</text>
@@ -62,7 +62,7 @@
   <text class="label" x="60" y="328">Mon</text>
   <text class="label" x="60" y="356">Wed</text>
   <text class="label" x="60" y="384">Fri</text>
-  <rect class="cell" x="108" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 24 Aug 2025</title></rect>
+  <rect class="padding" x="108" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 24 Aug 2025</title></rect>
   <rect class="cell" x="108" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 25 Aug 2025</title></rect>
   <rect class="cell" x="108" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 26 Aug 2025</title></rect>
   <rect class="cell" x="108" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 27 Aug 2025</title></rect>
@@ -434,7 +434,7 @@
   <rect class="cell" x="822" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 21 Aug 2026</title></rect>
   <rect class="cell" x="822" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 22 Aug 2026</title></rect>
   <rect class="cell" x="836" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 23 Aug 2026</title></rect>
-  <rect class="padding" x="836" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 24 Aug 2026</title></rect>
+  <rect class="cell" x="836" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 24 Aug 2026</title></rect>
   <rect class="padding" x="836" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 25 Aug 2026</title></rect>
   <rect class="padding" x="836" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 26 Aug 2026</title></rect>
   <rect class="padding" x="836" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 27 Aug 2026</title></rect>
