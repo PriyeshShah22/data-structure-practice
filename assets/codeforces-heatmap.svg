@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" role="img" aria-labelledby="title description">
   <title id="title">@codingwps Codeforces Practice Pulse</title>
-  <desc id="description">A live practice dashboard showing 18 unique solved problems, 10 active days, and a 4-day best streak.</desc>
+  <desc id="description">A live practice dashboard showing 19 unique solved problems, 11 active days, and a 4-day best streak.</desc>
   <defs>
     <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08111f"/><stop offset="1" stop-color="#0d0b1c"/></linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
@@ -27,14 +27,14 @@
   <text class="eyebrow" x="56" y="39">CODEFORCES · LEARNING IN PUBLIC</text>
   <text class="title" x="56" y="68">Practice Pulse</text>
   <text class="subtitle" x="964" y="43" text-anchor="end">@codingwps</text>
-  <text class="label" x="964" y="65" text-anchor="end">CP-31 journey · updated 26 Aug 2026</text>
+  <text class="label" x="964" y="65" text-anchor="end">CP-31 journey · updated 27 Aug 2026</text>
   <rect class="card" x="36" y="101" width="212" height="91" rx="12"/>
   <text class="eyebrow" x="54" y="124">UNIQUE SOLVES</text>
-  <text class="value" x="54" y="157">18</text>
+  <text class="value" x="54" y="157">19</text>
   <text class="tiny" x="54" y="177">first accepted problems</text>
   <rect class="card" x="268" y="101" width="212" height="91" rx="12"/>
   <text class="eyebrow" x="286" y="124">ACTIVE DAYS</text>
-  <text class="value" x="286" y="157">10</text>
+  <text class="value" x="286" y="157">11</text>
   <text class="tiny" x="286" y="177">across all recorded time</text>
   <rect class="card" x="500" y="101" width="212" height="91" rx="12"/>
   <text class="eyebrow" x="518" y="124">BEST STREAK</text>
@@ -42,11 +42,11 @@
   <text class="tiny" x="518" y="177">latest run: 1 day</text>
   <rect class="card" x="732" y="101" width="212" height="91" rx="12"/>
   <text class="eyebrow" x="750" y="124">LAST 30 DAYS</text>
-  <text class="value" x="750" y="157">14</text>
+  <text class="value" x="750" y="157">15</text>
   <text class="tiny" x="750" y="177">new problems cleared</text>
   <rect class="panel" x="36" y="216" width="928" height="224" rx="14"/>
   <text class="section" x="56" y="246">365-day solving trail</text>
-  <text class="label" x="944" y="246" text-anchor="end">14 solves · 8 active days</text>
+  <text class="label" x="944" y="246" text-anchor="end">15 solves · 9 active days</text>
   <text class="label" x="122" y="286">Sep</text>
   <text class="label" x="178" y="286">Oct</text>
   <text class="label" x="234" y="286">Nov</text>
@@ -65,7 +65,7 @@
   <rect class="padding" x="108" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 24 Aug 2025</title></rect>
   <rect class="padding" x="108" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 25 Aug 2025</title></rect>
   <rect class="padding" x="108" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 26 Aug 2025</title></rect>
-  <rect class="cell" x="108" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 27 Aug 2025</title></rect>
+  <rect class="padding" x="108" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 27 Aug 2025</title></rect>
   <rect class="cell" x="108" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 28 Aug 2025</title></rect>
   <rect class="cell" x="108" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 29 Aug 2025</title></rect>
   <rect class="cell" x="108" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 30 Aug 2025</title></rect>
@@ -437,8 +437,9 @@
   <rect class="cell" x="836" y="320" width="10" height="10" rx="2.5" fill="#67e8f9"><title>3 problems solved on 24 Aug 2026</title></rect>
   <text class="cell-count" x="841" y="327.5" text-anchor="middle">3</text>
   <rect class="cell" x="836" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 25 Aug 2026</title></rect>
-  <rect class="cell" x="836" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 26 Aug 2026</title></rect>
-  <rect class="padding" x="836" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 27 Aug 2026</title></rect>
+  <rect class="cell" x="836" y="348" width="10" height="10" rx="2.5" fill="#0e7490"><title>1 problem solved on 26 Aug 2026</title></rect>
+  <text class="cell-count" x="841" y="355.5" text-anchor="middle">1</text>
+  <rect class="cell" x="836" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 27 Aug 2026</title></rect>
   <rect class="padding" x="836" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 28 Aug 2026</title></rect>
   <rect class="padding" x="836" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 29 Aug 2026</title></rect>
   <text class="tiny" x="60" y="420">Each square marks a first accepted solution · Asia/Kolkata</text>
@@ -458,32 +459,32 @@
   <text class="label" x="54" y="518">800</text>
   <rect x="103" y="510" width="172" height="9" rx="4.5" fill="#172033"/>
   <rect x="103" y="510" width="172.0" height="9" rx="4.5" fill="url(#accent)"/>
-  <text class="tiny" x="314" y="518" text-anchor="end">18</text>
+  <text class="tiny" x="314" y="518" text-anchor="end">19</text>
   <text class="label" x="372" y="518">math</text>
   <rect x="492" y="510" width="122" height="9" rx="4.5" fill="#172033"/>
   <rect x="492" y="510" width="122.0" height="9" rx="4.5" fill="#a78bfa"/>
-  <text class="tiny" x="632" y="518" text-anchor="end">7</text>
+  <text class="tiny" x="632" y="518" text-anchor="end">8</text>
   <text class="label" x="372" y="540">greedy</text>
   <rect x="492" y="532" width="122" height="9" rx="4.5" fill="#172033"/>
-  <rect x="492" y="532" width="104.6" height="9" rx="4.5" fill="#a78bfa"/>
-  <text class="tiny" x="632" y="540" text-anchor="end">6</text>
+  <rect x="492" y="532" width="106.8" height="9" rx="4.5" fill="#a78bfa"/>
+  <text class="tiny" x="632" y="540" text-anchor="end">7</text>
   <text class="label" x="372" y="562">implementation</text>
   <rect x="492" y="554" width="122" height="9" rx="4.5" fill="#172033"/>
-  <rect x="492" y="554" width="87.1" height="9" rx="4.5" fill="#a78bfa"/>
+  <rect x="492" y="554" width="76.2" height="9" rx="4.5" fill="#a78bfa"/>
   <text class="tiny" x="632" y="562" text-anchor="end">5</text>
   <text class="label" x="372" y="584">strings</text>
   <rect x="492" y="576" width="122" height="9" rx="4.5" fill="#172033"/>
-  <rect x="492" y="576" width="87.1" height="9" rx="4.5" fill="#a78bfa"/>
+  <rect x="492" y="576" width="76.2" height="9" rx="4.5" fill="#a78bfa"/>
   <text class="tiny" x="632" y="584" text-anchor="end">5</text>
   <circle cx="692" cy="513" r="4" fill="#22d3ee"/>
-  <text class="strong" x="705" y="516">Sequence Game</text>
-  <text class="tiny" x="944" y="516" text-anchor="end">1862B · 24 Aug</text>
+  <text class="strong" x="705" y="516">Array Coloring</text>
+  <text class="tiny" x="944" y="516" text-anchor="end">1857A · 26 Aug</text>
   <circle cx="692" cy="547" r="4" fill="#22d3ee"/>
-  <text class="strong" x="705" y="550">United We Stand</text>
-  <text class="tiny" x="944" y="550" text-anchor="end">1859A · 24 Aug</text>
+  <text class="strong" x="705" y="550">Sequence Game</text>
+  <text class="tiny" x="944" y="550" text-anchor="end">1862B · 24 Aug</text>
   <circle cx="692" cy="581" r="4" fill="#22d3ee"/>
-  <text class="strong" x="705" y="584">Buttons</text>
-  <text class="tiny" x="944" y="584" text-anchor="end">1858A · 24 Aug</text>
+  <text class="strong" x="705" y="584">United We Stand</text>
+  <text class="tiny" x="944" y="584" text-anchor="end">1859A · 24 Aug</text>
   <rect x="36" y="623" width="928" height="1" fill="#263247"/>
   <text class="tiny" x="36" y="636">LIVE FROM THE CODEFORCES API · UNIQUE FIRST ACCEPTED SOLVES</text>
   <text class="tiny" x="964" y="636" text-anchor="end">KEEP SHOWING UP ↗</text>
