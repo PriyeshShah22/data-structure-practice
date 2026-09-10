@@ -27,7 +27,7 @@
   <text class="eyebrow" x="56" y="39">CODEFORCES · LEARNING IN PUBLIC</text>
   <text class="title" x="56" y="68">Practice Pulse</text>
   <text class="subtitle" x="964" y="43" text-anchor="end">@codingwps</text>
-  <text class="label" x="964" y="65" text-anchor="end">CP-31 journey · updated 10 Sep 2026</text>
+  <text class="label" x="964" y="65" text-anchor="end">CP-31 journey · updated 11 Sep 2026</text>
   <rect class="card" x="36" y="101" width="212" height="91" rx="12"/>
   <text class="eyebrow" x="54" y="124">UNIQUE SOLVES</text>
   <text class="value" x="54" y="157">22</text>
@@ -42,7 +42,7 @@
   <text class="tiny" x="518" y="177">latest run: 2 days</text>
   <rect class="card" x="732" y="101" width="212" height="91" rx="12"/>
   <text class="eyebrow" x="750" y="124">LAST 30 DAYS</text>
-  <text class="value" x="750" y="157">18</text>
+  <text class="value" x="750" y="157">17</text>
   <text class="tiny" x="750" y="177">new problems cleared</text>
   <rect class="panel" x="36" y="216" width="928" height="224" rx="14"/>
   <text class="section" x="56" y="246">365-day solving trail</text>
@@ -66,7 +66,7 @@
   <rect class="padding" x="108" y="320" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 08 Sep 2025</title></rect>
   <rect class="padding" x="108" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 09 Sep 2025</title></rect>
   <rect class="padding" x="108" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 10 Sep 2025</title></rect>
-  <rect class="cell" x="108" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 11 Sep 2025</title></rect>
+  <rect class="padding" x="108" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 11 Sep 2025</title></rect>
   <rect class="cell" x="108" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 12 Sep 2025</title></rect>
   <rect class="cell" x="108" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 13 Sep 2025</title></rect>
   <rect class="cell" x="122" y="306" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 14 Sep 2025</title></rect>
@@ -443,7 +443,7 @@
   <rect class="cell" x="836" y="334" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 08 Sep 2026</title></rect>
   <rect class="cell" x="836" y="348" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 09 Sep 2026</title></rect>
   <rect class="cell" x="836" y="362" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 10 Sep 2026</title></rect>
-  <rect class="padding" x="836" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 11 Sep 2026</title></rect>
+  <rect class="cell" x="836" y="376" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 11 Sep 2026</title></rect>
   <rect class="padding" x="836" y="390" width="10" height="10" rx="2.5" fill="#151d2c"><title>0 problems solved on 12 Sep 2026</title></rect>
   <text class="tiny" x="60" y="420">Each square marks a first accepted solution · Asia/Kolkata</text>
   <text class="tiny" x="814" y="420">LESS</text>
